@@ -114,12 +114,14 @@ img {
 }
 
 /*=============== REUSABLE CSS CLASSES ===============*/
-.section {
+.section:not(:first-child) {
   padding: 6rem 0 2rem;
 }
 
 .section:first-child {
-  padding: 10rem 0 2rem;
+  height: 100vh;
+  display: flex;
+  align-items: center;
 }
 
 .section__title {
