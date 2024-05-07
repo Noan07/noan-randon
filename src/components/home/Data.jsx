@@ -61,16 +61,14 @@ const Data = () => {
         <TypeAnimation
                 sequence={[
                   "Computer Student",
-                  1000,
+                  2000,
                   "Web Developer",
-                  1000,
+                  2000,
                   "Mobile Developer",
-                  1000,
-                  "UI/UX Designer",
-                  1000,
+                  2000,
                 ]}
                 wrapper="span"
-                speed={50}
+                speed={30}
                 repeat={Infinity}
               /></h3>
       <p className="home__description">
