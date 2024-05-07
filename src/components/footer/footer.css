@@ -7,21 +7,6 @@
     padding: 2rem 0 2rem;
 }
 
-/* .footer__link {
-    color: var(--title-color);
-}
-
-.footer__link:hover {
-    color: var(--title-color-dark);
-} */
-
-/* .footer__list {
-    display: flex;
-    justify-content: center;
-    column-gap: 1.5rem;
-    margin-bottom: var(--mb-2);
-} */
-
 .footer__copy {
     display: block;
     color: var(--title-color);
