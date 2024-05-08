@@ -9,6 +9,7 @@ import Contact from './components/contact/Contact';
 import ScrollUp from './components/scrollup/ScrollUp';
 import Testimonials from './components/testimonials/Testimonials';
 import About from './components/about/About';
+import Skills from './components/skills/Skills';
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
     <main className='main'>
       <Home />
       <About />
+      <Skills />
       <Projects />
       <Qualification />
       <Contact />
