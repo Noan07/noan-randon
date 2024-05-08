@@ -7,6 +7,7 @@ import Qualification from './components/qualification/Qualification';
 import Projects from './components/Portfolio/Work';
 import Contact from './components/contact/Contact';
 import ScrollUp from './components/scrollup/ScrollUp';
+import Testimonials from './components/testimonials/Testimonials';
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
       <Projects />
       <Qualification />
       <Contact />
+      <Testimonials />
       <ScrollUp />
     </main>
 
