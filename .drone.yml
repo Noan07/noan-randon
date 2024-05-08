@@ -1,12 +1,28 @@
 kind: pipeline
 type: docker
-name: deploy
+name: Portfolio
+
+trigger:
+  event:
+    - push
 
 steps:
-  - name: deploy-container
-    image: hub.codefirst.iut.uca.fr/thomas.bellembois/codefirst-dockerproxy-clientdrone:latest
-    environment:
-      IMAGENAME: hub.codefirst.iut.uca.fr/noan.randon/portfolio-noan
-      CONTAINERNAME: portfolio
-      COMMAND: create
-      OVERWRITE: true
+  - name: app-build
+    image: node:latest
+    commands:
+      - cd .
+      - npm install
+      - npm run build
+
+  - name: docker-build-and-push
+    image: plugins/docker
+    settings:
+      dockerfile: Dockerfile
+      context: .
+      registry: hub.codefirst.iut.uca.fr
+      repo: hub.codefirst.iut.uca.fr/noan.randon/portfolio-noan
+      username:
+        from_secret: SECRET_REGISTRY_USERNAME
+      password:
+        from_secret: SECRET_REGISTRY_PASSWORD
+    depends_on: [ app-build ]
