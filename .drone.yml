@@ -7,13 +7,6 @@ trigger:
     - push
 
 steps:
-  # - name: app-build
-  #   image: node:latest
-  #   commands:
-  #     - cd .
-  #     - npm install
-  #     - npm run build
-
   - name: docker-build-and-push
     image: plugins/docker
     settings:
