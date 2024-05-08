@@ -2,7 +2,7 @@ FROM node:latest AS build
 WORKDIR /portfolio
 
 COPY . ./
-RUN npm i && npm run build -- --base=/containers/noanrandon-portfolio/
+RUN npm i && npm run build
 
 FROM nginx:latest AS server
 
