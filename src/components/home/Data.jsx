@@ -72,7 +72,7 @@ const Data = () => {
                 repeat={Infinity}
               /></h3>
       <p className="home__description">
-        I'm creative designer based in New York, and I'm very passionate and
+        I'm developer based in Clermont-Ferrand, and I'm very passionate and
         dedicated to my work.
       </p>
 
