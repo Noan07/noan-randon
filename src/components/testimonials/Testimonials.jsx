@@ -12,7 +12,7 @@ import { Navigation, Scrollbar, A11y, EffectCube, Pagination } from 'swiper/modu
 
 const Testimonials = () => {
   return (
-    <section className="testimonial container section">
+    <section className="testimonial container section" id="testimonials">
       <h2 className="section__title"></h2>
       <span className="section__subtitle">Testimonial</span>
 
