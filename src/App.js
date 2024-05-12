@@ -13,6 +13,7 @@ import Skills from './components/skills/Skills';
 const App = () => {
   return (
     <>
+    <BrowserRouter basename='/containers/lucasdelanier-portfolio/'></BrowserRouter>
     <Header />
 
     <main className='main'>
