@@ -1,5 +1,6 @@
 import React from 'react';
 import "./App.css";
+import { BrowserRouter } from "react-router-dom";
 import Header from './components/header/Header';
 import Home from './components/home/Home';
 import Footer from './components/footer/Footer';
@@ -12,8 +13,7 @@ import Skills from './components/skills/Skills';
 
 const App = () => {
   return (
-    <>
-    <BrowserRouter basename='/containers/noanrandon-portfolio/'></BrowserRouter>
+    <BrowserRouter basename='/containers/noanrandon-portfolio/'>
     <Header />
 
     <main className='main'>
@@ -28,7 +28,7 @@ const App = () => {
 
     <Footer />
 
-    </>
+    </BrowserRouter>
   )
 }
 
