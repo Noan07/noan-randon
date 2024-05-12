@@ -13,8 +13,8 @@ import { Navigation, Scrollbar, A11y, EffectCube, Pagination } from 'swiper/modu
 const Testimonials = () => {
   return (
     <section className="testimonial container section" id="testimonials">
-      <h2 className="section__title"></h2>
-      <span className="section__subtitle">Testimonial</span>
+      <h2 className="section__title">Testimonial</h2>
+      <span className="section__subtitle">People around to me saying</span>
 
       <Swiper
         modules={[Navigation, Pagination, Scrollbar, A11y, EffectCube]}
