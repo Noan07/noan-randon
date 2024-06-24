@@ -1,6 +1,6 @@
 FROM node:latest AS build
 WORKDIR /portfolio-noan
-ENV PUBLIC_URL="/containers/noanrandon-portfolio-noan/"
+ENV PUBLIC_URL="/containers/noanrandon-portfolio/"
 
 ADD . .
 RUN npm i && npm run build
