@@ -1,8 +1,9 @@
 FROM node:latest AS build
 WORKDIR /portfolio-noan
+ENV PUBLIC_URL="/containers/noanrandon-portfolio-noan/"
 
 ADD . .
-RUN npm i && npm run build -- --base=/containers/noanrandon-portfolio-noan/
+RUN npm i && npm run build
 
 FROM nginx:latest AS server
 
