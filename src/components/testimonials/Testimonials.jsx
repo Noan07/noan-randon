@@ -3,10 +3,8 @@ import "./testimonial.css";
 import { Data } from "./Data";
 import { Swiper, SwiperSlide } from 'swiper/react';
 
-// Import Swiper styles
 import 'swiper/css';
 
-// import required modules
 import { Navigation, Scrollbar, A11y, EffectCube, Pagination } from 'swiper/modules';
 
 
@@ -31,12 +29,15 @@ const Testimonials = () => {
           }
         }}
       >
-        {Data.map(({ id, image, title, description }) => {
+        {Data.map(({ id, image, title, status, description }) => {
           return (
             <SwiperSlide className="testimonial__card" key={id}>
-              <img src={image} alt="" className="testimonial__img" />
+              <div className="testimonial__header">
+                <img src={image} alt="" className="testimonial__img" />
+                <h3 className="testimonial__name">{title}</h3>
+              </div>
 
-              <h3 className="testimonial__name">{title}</h3>
+              <h3 className="testimonial__profession">{status}</h3>
               <p className="testimonial__description">{description}</p>
             </SwiperSlide>
           );

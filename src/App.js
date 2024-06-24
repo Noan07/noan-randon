@@ -10,6 +10,8 @@ import ScrollUp from './components/scrollup/ScrollUp';
 import Testimonials from './components/testimonials/Testimonials';
 import About from './components/about/About';
 import Skills from './components/skills/Skills';
+import '@fortawesome/fontawesome-free/css/all.min.css';
+
 
 const App = () => {
   return (

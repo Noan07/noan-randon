@@ -12,13 +12,22 @@
 .testimonial__img {
     width: 60px;
     border-radius: 3rem;
-    margin-bottom: var(--mb-1);
 }
 
 .testimonial__name {
+    font-weight: var(--font-medium);
+}
+
+.testimonial__header {
+    display: flex;
+    align-items: center;
+    margin-bottom: var(--mb-1);
+    gap: 1rem;
+}
+
+.testimonial__profession {
     font-size: var(--normal-font-size);
     font-weight: var(--font-medium);
-    margin-bottom: var(--mb-0-25);
 }
 
 .testimonial__description {

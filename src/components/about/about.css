@@ -22,22 +22,66 @@
     border-radius: 0.75rem;
     text-align: center;
     padding: 1rem 1.25rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.about__box::before {
+    content: "";
+    position: absolute;
+    bottom: -195%;
+    left: -195%;
+    width: 300%;
+    height: 300%;
+    background-color: var(--title-color);
+    transition: transform 0.5s ease-in-out;
+    transform-origin: bottom left;
+    transform: rotate(45deg);
+    z-index: 0;
+}
+
+.about__box:hover::before {
+    transform: rotate(0deg);
+}
+
+.about__box:hover::before {
+    transform: rotate(0deg);
+}
+
+
+
+.about__box:hover .about__icon,
+.about__box:hover .about__title,
+.about__box:hover .about__subtitle {
+    transition: color 0.7s ease 0.3s;
+    color: white;
 }
 
 .about__icon {
     font-size: 1.5rem;
     color: var(--title-color);
     margin-bottom: var(--mb-0-5);
+    position: relative;
+    z-index: 1;
+    transition: color 0.3s ease; /* Smooth transition */
 }
 
 .about__title {
     font-size: var(--small-font-size);
     font-weight: var(--font-medium);
+    position: relative;
+    z-index: 1;
+    transition: color 0.3s ease; /* Smooth transition */
 }
 
 .about__subtitle {
     font-size: var(--tiny-font-size);
+    position: relative;
+    z-index: 1;
+    transition: color 0.3s ease; /* Smooth transition */
 }
+
+
 
 .about__description {
     margin-bottom: var(--mb-2-5);
@@ -90,3 +134,4 @@
         grid-template-columns: repeat(2, 1fr);
     }
   }
+  

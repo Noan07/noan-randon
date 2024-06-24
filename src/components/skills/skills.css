@@ -1,5 +1,89 @@
 .skills__container {
-    grid-template-columns: repeat(2, 350px);
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+    justify-content: center;
+  }
+  
+  .skills__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--container-color);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    border-radius: 1.25rem;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    text-align: center;
+    position: relative;
+  }
+  
+  .skills__item:hover {
+    background-color: var(--title-color);
+    color: white;
+  }
+  
+  .skills__item:hover .skills__name,
+  .skills__item:hover .skills__level {
+    color: white;
+  }
+  
+  .skills__item:hover .skills__type {
+    display: block;
+  }
+  
+  .skills__item i {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .skills__name {
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-medium);
+    margin-bottom: 0.25rem;
+  }
+  
+  .skills__level {
+    font-size: var(--tiny-font-size);
+  }
+  
+  .skills__type {
+    display: none;
+    color: var(--title-color);
+    font-size: var(--tiny-font-size);
+    position: absolute;
+    bottom: -1.25rem;
+  }
+  
+  /*=============== BREAKPOINTS ===============*/
+  /* For large devices */
+  @media screen and (max-width: 992px) {
+    .skills__container {
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    }
+  }
+  
+  /* For medium devices */
+  @media screen and (max-width: 576px) {
+    .skills__container {
+      grid-template-columns: 1fr;
+    }
+  
+    .skills__item {
+      padding: 1.5rem;
+    }
+  }
+  
+  /* For small devices */
+  @media screen and (max-width: 350px) {
+    .skills__name {
+      font-size: var(--small-font-size);
+    }
+  }
+  
+  
+/* .skills__container {
+    grid-template-columns: repeat(3, 300px);
     column-gap: 3rem;
     justify-content: center;
 }
@@ -50,8 +134,7 @@
     font-size: var(--tiny-font-size);
 }
 
-/*=============== BREAKPOINTS ===============*/
-/* For large devices */
+
 @media screen and (max-width: 992px) {
     .skills__container {
         grid-template-columns: max-content;
@@ -59,7 +142,6 @@
     }
   }
   
-  /* For medium devices */
   @media screen and (max-width: 576px) {
     .skills__container {
         grid-template-columns: 1fr;
@@ -70,7 +152,6 @@
     }
   }
   
-  /* For small devices */
   @media screen and (max-width: 350px) {
     .skills__box {
         column-gap: 1.25rem;
@@ -80,4 +161,4 @@
         font-size: var(--small-font-size);
     }
   }
-  
+   */

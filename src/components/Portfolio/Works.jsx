@@ -31,8 +31,7 @@ const Projects = () => {
 
   return (
     <div>
-      {/* projects nav */}
-      <div class="work__filters">
+      <div className="work__filters">
         {projectsNav.map((item, index) => {
           return (
             <span
@@ -47,7 +46,7 @@ const Projects = () => {
           );
         })}
       </div>
-      {/* projects */}
+
       <div className="work__container container grid">
         {projects.map((item) => {
           return <WorkItems item={item} key={item.id} />;
@@ -58,3 +57,4 @@ const Projects = () => {
 };
 
 export default Projects;
+
