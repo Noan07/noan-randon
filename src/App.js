@@ -5,7 +5,7 @@ import Home from './components/home/Home';
 import Footer from './components/footer/Footer';
 import Qualification from './components/qualification/Qualification';
 import Projects from './components/Portfolio/Work';
-import Contact from './components/contact/Contact';
+// import Contact from './components/contact/Contact';
 import ScrollUp from './components/scrollup/ScrollUp';
 import Testimonials from './components/testimonials/Testimonials';
 import About from './components/about/About';
@@ -25,7 +25,7 @@ const App = () => {
       <Projects />
       <Qualification />
       <Testimonials />
-      <Contact />
+      {/* <Contact /> */}
       <ScrollUp />
     </main>
 
