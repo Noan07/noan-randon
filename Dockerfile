@@ -6,4 +6,4 @@ RUN npm i && npm run build -- --base=/containers/noanrandon-portfolio-noan/
 
 FROM nginx:latest AS server
 
-COPY --from=build /portfolio-noan/dist /usr/share/nginx/html
+COPY --from=build /portfolio-noan/build /usr/share/nginx/html
