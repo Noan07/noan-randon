@@ -1,0 +1,143 @@
+{
+    "header": {
+        "home": "Accueil",
+        "about": "À propos",
+        "skills": "Compétences",
+        "projects": "Portfolio",
+        "qualification": "Qualifications"
+    },
+    "home": {
+        "data": {
+            "project": "Projets",
+            "animation-1": "Étudiant en informatique",
+            "animation-2": "Développeur Web",
+            "animation-3": "Développeur Mobile",
+            "description": "Je suis développeur basé à Clermont-Ferrand, et je suis très passionné et dévoué à mon travail."
+        },
+        "scroll-down": {
+            "scroll-down": "Défiler vers le bas"
+        }
+    },
+    "about": {
+        "title": "À propos de moi",
+        "subtitle": "Mon introduction",
+        "info": {
+            "about-box-1": {
+                "title": "Diplôme",
+                "subtitle": "BUT Informatique"
+            },
+            "about-box-2": {
+                "title": "Terminés",
+                "subtitle": "Projets"
+            },
+            "about-box-3": {
+                "title": "Cafés",
+                "subtitle": "Tasses"
+            }
+        },
+        "description-part-1": "Développeur passionné depuis plusieurs années, ",
+        "description-part-2": "je suis actuellement en troisième année à l'IUT des Cézeaux. ",
+        "description-part-3": "Mon objectif est de continuer mes études en écoles d'ingénieurs afin d'approfondir mes compétences de développeur et d'acquérir de nouvelles connaissances dans le domaine de l'informatique.",
+        "download-cv": "Télécharger CV"
+    },
+    "skills": {
+        "title": "Compétences",
+        "subtitle": "Mon niveau technique",
+        "data": {
+            "programming": "Programmation",
+            "utils": "Outils",
+            "dev-ops": "DevOps",
+            "dev-web": "Développement Web",
+            "dev-mobile": "Développement Mobile",
+            "bdd": "Base de données",
+            "intermediate": "Intermédiaire",
+            "advanced": "Avancé",
+            "basic": "Débutant"
+        }
+    },
+    "projects": {
+        "title": "Portfolio",
+        "subtitle": "Travaux les plus récents",
+        "filters": {
+            "all": "Tous",
+            "sae": "SAE",
+            "web-app": "Application Web",
+            "mobile-app": "Application Mobile"
+        },
+        "details": "Détails"
+    },
+    "qualification": {
+        "title": "Qualifications",
+        "subtitle": "Mon parcours personnel",
+        "education": {
+            "title": "Éducation"
+        },
+        "experience": {
+            "title": "Expérience",
+            "section-1": {
+                "title": "Alternance",
+                "description": "Développement d’une application web permettant de conseiller nos clients sur la gestion du patrimoine. Les technologies utilisées sont les suivantes : Angular (Front), Symfony (API), MariaDB (BDD), Docker.",
+                "calendar": "Sep 2023 - Présent"
+            },
+            "section-2": {
+                "title": "Stage",
+                "description": "Développement et implémentation de modèles de Plan de Gestion de Données dans un Système d’Information (Apache-PHP-MySQL).",
+                "calendar": "Avril - Juin 2023"
+            },
+            "section-3": {
+                "title": "Assistant Informatique",
+                "description-1": "Vérification effectuée sur les dossiers des clients, par l'intermédiaire de différents tableaux Excel, un peu de programmation pour automatiser des taches (Python).",
+                "description-2": "Création d’une application web pour regrouper les informations sur les clients, fait en Nextjs.",
+                "calendar": "Juillet - Août 2023"
+            }
+        },
+        "languages": {
+            "title": "Langues",
+            "language-1": {
+                "name": "Français",
+                "level": "Courant"
+            },
+            "language-2": {
+                "name": "Anglais",
+                "level": "Courant"
+            }
+        }
+    },
+    "testimonial": {
+        "title": "Témoignages",
+        "subtitle": "Ce que disent les gens autour de moi",
+        "testimonial-1": {
+            "status": "Responsable Technique - Harvest",
+            "description": ""
+        },
+        "testimonial-2": {
+            "status": "Étudiant",
+            "description": "Noan est une personne travailleuse et sérieuse. Nous avons collaboré sur de nombreux projets, et il m'a toujours impressionné par sa capacité à s'adapter. Il prend souvent en charge les tâches que les autres membres de l'équipe ne veulent pas faire, montrant ainsi son engagement et son esprit d'équipe."
+        },
+        "testimonial-3": {
+            "status": "Expert-Comptable - ADLIR Conseils",
+            "description": ""
+        }
+    },
+    "contact": {
+        "title": "Me contacter",
+        "subtitle": "Contactez-moi",
+        "card": {
+            "title": "Parlez-moi",
+            "contact": "Email",
+            "button": "Écrivez-moi"
+        },
+        "form": {
+            "name": "Nom",
+            "placeholder-name": "Entrez votre nom",
+            "mail": "Email",
+            "placeholder-mail": "Entrez votre email",
+            "message": "Message",
+            "placeholder-message": "Écrivez votre message",
+            "send": "Envoyer le message"
+        }
+    },    
+    "footer": {
+        "copyright": "Copyright &#169; 2024 par Noan Randon | Tous droits réservés"
+    }
+}

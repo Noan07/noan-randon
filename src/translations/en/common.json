@@ -1,0 +1,143 @@
+{
+    "header": {
+        "home": "Home",
+        "about" : "About",
+        "skills": "Skills",
+        "projects": "Portfolio",
+        "qualification": "Qualification"
+    },
+	"home": {
+        "data": {
+            "project": "Projects",
+            "animation-1": "Computer Student",
+            "animation-2": "Web Developer",
+            "animation-3": "Mobile Developer",
+            "description": "I'm developer based in Clermont-Ferrand, and I'm very passionate and dedicated to my work."
+        },
+        "scroll-down": {
+            "scroll-down": "Scroll Down"
+        }
+    },
+    "about": {
+        "title": "About Me",
+        "subtitle": "My introduction",
+        "info": {
+            "about-box-1": {
+                "title": "Degree",
+                "subtitle": "BUT Informatique"
+            },
+            "about-box-2": {
+                "title": "Completed",
+                "subtitle": "Projects"
+            },
+            "about-box-3": {
+                "title": "Coffee",
+                "subtitle": "Cups"
+            }
+        },
+        "description-part-1": "Passionate developer for several years, ",
+        "description-part-2": "I'm currently a third-year student at the IUT des Cézeaux. ",
+        "description-part-3": "My goal is to continue my studies in engineering schools in order to deepen my skills as a developer and acquire new knowledge in the IT field.",
+        "download-cv": "Download CV"
+    },
+    "skills": {
+        "title": "Skills",
+        "subtitle": "My technical level",
+        "data": {
+            "programming": "Programming",
+            "utils": "Utils",
+            "dev-ops": "DevOps",
+            "dev-web": "Web development",
+            "dev-mobile": "Mobile development",
+            "bdd": "Database",
+            "intermediate": "Intermediate",
+            "advanced": "Advanced",
+            "basic": "Basic"
+        }
+    },
+    "projects": {
+        "title": "Portfolio",
+        "subtitle": "Most recent work",
+        "filters": {
+            "all": "All",
+            "sae": "SAE",
+            "web-app": "Web App",
+            "mobile-app": "Mobile App"
+        },
+        "details": "Details"
+    },
+    "qualification": {
+        "title": "Qualification",
+        "subtitle": "My personel journey",
+        "education": {
+            "title": "Education"
+        },
+        "experience": {
+            "title": "Experience",
+            "section-1": {
+                "title": "Sandwich Course",
+                "description": "Développement d’une application web permettant de conseiller nos clients sur la gestion du patrimoine. Les technologies utilisées sont les suivantes: Angular (Front), Symfony (API), MariaDB (BDD), docker.",
+                "calendar": "Sep 2023 - Present"
+            },
+            "section-2": {
+                "title": "Intership",
+                "description": "Développement et implémentation de modèles de Plan de Gestion de Données dans un Système d’Information (Apache-PHP-Mysql).",
+                "calendar": "April - June 2023"
+            },
+            "section-3": {
+                "title": "IT assistant",
+                "description-1": "Verification performed on client files using various Excel spreadsheets, with some programming to automate tasks (Python).",
+                "description-2": "Creation of a web application to gather information about clients, developed in Nextjs.",
+                "calendar": "July - August 2023"
+            }
+        },
+        "languages": {
+            "title": "Languages",
+            "language-1": {
+                "name": "French",
+                "level": "Fluent"
+            },
+            "language-2": {
+                "name": "English",
+                "level": "Fluent"
+            }
+        }
+    },
+    "testimonial": {
+        "title": "Testimonial",
+        "subtitle": "People around to me saying",
+        "testimonial-1": {
+            "status": "Technical Manager - Harvest",
+            "description": ""
+        },
+        "testimonial-2": {
+            "status": "Student",
+            "description": "Noan is a hardworking and serious person. We have collaborated on numerous projects, and I have always been impressed by his ability to adapt. He often takes on tasks that other team members do not want to do, demonstrating his commitment and team spirit."
+        },
+        "testimonial-3": {
+            "status": "Chartered Accountant - ADLIR Conseils",
+            "description": ""
+        }
+    },
+    "contact": {
+        "title": "Get in touch",
+        "subtitle": "Contact Me",
+        "card": {
+            "title": "Talk to me",
+            "contact": "Email",
+            "button": "Write me"
+        },
+        "form": {
+            "name": "Name",
+            "placeholder-name": "Insert your name",
+            "mail": "Mail",
+            "placeholder-mail": "Insert your email",
+            "message": "Message",
+            "placeholder-message": "Write your message",
+            "send": "Send Message"
+        }
+    },
+    "footer": {
+        "copyright": "Copyright &#169; 2024 by Noan Randon | All rigths reserved"
+    }
+}

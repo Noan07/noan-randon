@@ -1,0 +1,154 @@
+.project-details {
+    padding: 1rem 0;
+}
+  
+.back-button {
+    background-color: var(--title-color);
+    color: var(--container-color);
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+.skills__container {
+    padding-top: 1.5rem;
+}
+
+.project-details__header {
+    display: grid;
+    grid-template-columns: auto 1fr auto; 
+    align-items: center;
+}
+
+.project-details__content-images {
+    display: grid;
+}
+
+.project-details__content-container {
+    display: grid;
+    grid-template-columns: 40% 60%; 
+    gap: 1rem;
+}
+
+.icons-container {
+    display: flex;
+    justify-self: end;
+    align-content: center;
+    gap: 1rem;
+}
+
+.project-details__content {
+    background-color: var(--container-color);
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: var(--shadow);
+}
+
+.project-details__content__dark {
+    background-color: var(--title-color);
+}
+
+.project-details__content-title {
+    margin-bottom: var(--mb-1);
+}
+
+.project-details__title__dark {
+    color: white;
+}
+
+.project-details__content__dark {
+    background-color: var(--title-color);
+}
+
+.project-details__icon {
+    display: flex;
+    align-items: center;
+    margin-right: 0.5rem;
+}
+
+.project-details__info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.justified-text {
+    text-align: justify;
+  }
+  
+
+.project-details__info-icon {
+    margin-right: 0.5rem;
+    font-size: 1.2rem;
+    color: var(--title-color); /* Adjust as needed */
+}
+
+
+.details__icon {
+    position: relative;
+    color: var(--title-color);
+    font-size: 1.5rem;
+    transition: transform 0.5s ease, filter 0.5s ease;
+}
+
+.details__icon::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 2.5rem;
+    height: 2.5rem;
+    border: 2px solid var(--title-color);
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    transition: border-color 0.5s ease, background-color 0.5s ease;
+}
+
+.project-details__images {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.project-details__images img {
+    width: 100%;
+    height: auto;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+/* For large devices */
+@media screen and (max-width: 992px) {
+    .skills__container {
+        grid-template-columns: 2fr;
+    }
+    .project-details__content-container {
+        grid-template-columns: 1fr; /* Stack the columns vertically */
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .section:not(:first-child) {
+        padding: 0.5rem 0;
+    }
+}
+
+/* For medium devices */
+@media screen and (max-width: 576px) {
+    .skills__container {
+        grid-template-columns: 2fr;
+    }
+
+    .skills__item {
+        padding: 1.5rem;
+    }
+}
+
+  
+@media screen and (max-width: 350px) {
+    .skills__container {
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    }
+    .skills__name {
+      font-size: var(--small-font-size);
+    }
+}

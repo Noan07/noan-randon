@@ -1,8 +1,11 @@
 import React from "react";
 import Social from "./Social";
 import { TypeAnimation } from "react-type-animation";
+import {useTranslation} from "react-i18next";
 
 const Data = () => {
+  const [t] = useTranslation('common');
+
   return (
     <div className="home__data">
       <h1 className="home__title">
@@ -11,11 +14,11 @@ const Data = () => {
       <h3 className="home__subtitle">
         <TypeAnimation
                 sequence={[
-                  "Computer Student",
+                  t('home.data.animation-1'),
                   2000,
-                  "Web Developer",
+                  t('home.data.animation-2'),
                   2000,
-                  "Mobile Developer",
+                  t('home.data.animation-3'),
                   2000,
                 ]}
                 wrapper="span"
@@ -23,12 +26,11 @@ const Data = () => {
                 repeat={Infinity}
               /></h3>
       <p className="home__description">
-        I'm developer based in Clermont-Ferrand, and I'm very passionate and
-        dedicated to my work.
+        {t('home.data.description')}
       </p>
 
       <a href="#portfolio" className="button button--flex">
-        Projects
+        {t('home.data.project')} 
         <svg 
           class="button__icon"
           xmlns="http://www.w3.org/2000/svg"

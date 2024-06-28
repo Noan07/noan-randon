@@ -5,19 +5,15 @@ import Home from './components/home/Home';
 import Footer from './components/footer/Footer';
 import Qualification from './components/qualification/Qualification';
 import Projects from './components/Portfolio/Work';
-// import Contact from './components/contact/Contact';
+import Contact from './components/contact/Contact';
 import ScrollUp from './components/scrollup/ScrollUp';
 import Testimonials from './components/testimonials/Testimonials';
 import About from './components/about/About';
 import Skills from './components/skills/Skills';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 
-
 const App = () => {
   return (
-    <>
-    <Header />
-
     <main className='main'>
       <Home />
       <About />
@@ -25,13 +21,8 @@ const App = () => {
       <Projects />
       <Qualification />
       <Testimonials />
-      {/* <Contact /> */}
-      <ScrollUp />
+      <Contact />
     </main>
-
-    <Footer />
-
-    </>
   )
 }
 

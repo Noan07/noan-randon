@@ -1,26 +1,37 @@
 import React, { useState, useEffect } from "react";
-
-// import data
 import { projectsData } from "./Data";
 import { projectsNav } from "./Data";
-
-// import components
 import WorkItems from "./WorkItems";
+import { useTranslation } from "react-i18next";
 
 const Projects = () => {
   const [item, setItem] = useState({ name: "all" });
   const [projects, setProjects] = useState([]);
   const [active, setActive] = useState(0);
+  const { t } = useTranslation('common');
 
   useEffect(() => {
     // get projects based on item
-    if (item.name === "all") {
+    if (item.name === "all" || item.name === "tous") {
       setProjects(projectsData);
-    } else {
+    }
+    else if (item.name === "sae") {
       const newProjects = projectsData.filter((project) => {
-        return project.category.toLowerCase() === item.name;
+        return project.category === "SAE";
       });
-      setProjects(newProjects);
+      setProjects(newProjects); 
+    }
+    else if (item.name === "web app" || item.name === "application web") {
+      const newProjectsWeb = projectsData.filter((project) => {
+        return project.category === "Web App";
+      });
+      setProjects(newProjectsWeb); 
+    }
+    else if (item.name === "mobile app" || item.name === "application mobile") {
+      const newProjectsMobile = projectsData.filter((project) => {
+        return project.category === "Mobile App";
+      });
+      setProjects(newProjectsMobile); 
     }
   }, [item]);
 
@@ -41,7 +52,7 @@ const Projects = () => {
               className={`${active === index ? "active-work" : ""} work__item`}
               key={index}
             >
-              {item.name}
+              {t(`projects.filters.${item.name}`)}
             </span>
           );
         })}

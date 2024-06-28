@@ -2,10 +2,12 @@ import React, { useState } from "react";
 import "./qualification.css";
 import England from "../../assets/flags/england.png";
 import France from "../../assets/flags/france.png";
+import { useTranslation } from "react-i18next";
 
 const Qualification = () => {
   const [toggleState, setToggleState] = useState(1);
   const [visibleSubmenus, setVisibleSubmenus] = useState({});
+  const [t] = useTranslation('common');
 
   const toggleTab = (index) => {
     setToggleState(index);
@@ -20,8 +22,8 @@ const Qualification = () => {
 
   return (
     <section className="qualification section" id="qualification">
-      <h2 className="section__title">Qualification</h2>
-      <span className="section__subtitle">My personel journey</span>
+      <h2 className="section__title">{t('qualification.title')}</h2>
+      <span className="section__subtitle">{t('qualification.subtitle')}</span>
 
       <div className="qualification__container container grid">
       <div className="contact__content">
@@ -35,7 +37,7 @@ const Qualification = () => {
             onClick={() => toggleTab(1)}
           >
             <i className="uil uil-graduation-cap qualification__icon"></i>
-            Education
+            {t('qualification.education.title')}
           </div>
 
           <div
@@ -47,7 +49,7 @@ const Qualification = () => {
             onClick={() => toggleTab(2)}
           >
             <i className="uil uil-briefcase-alt qualification__icon"></i>
-            Experience
+            {t('qualification.experience.title')}
           </div>
         </div>
 
@@ -105,7 +107,7 @@ const Qualification = () => {
           >
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Sandwich Course</h3>
+                <h3 className="qualification__title">{t('qualification.experience.section-1.title')}</h3>
                 <div className="qualification__submenu">
                   <span className="qualification__subtitle">
                     Harvest - Aubière
@@ -115,12 +117,12 @@ const Qualification = () => {
                 {visibleSubmenus[1] && (
                   <div className="qualification__details">
                     <span className="qualification__details__description">
-                      Développement d’une application web permettant de conseiller nos clients sur la gestion du patrimoine. Les technologies utilisées sont les suivantes: Angular (Front), Symfony (API), MariaDB (BDD), docker.
+                    {t('qualification.experience.section-1.description')}
                     </span>
                   </div>
                 )}
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i> Sep 2023 - Present
+                  <i className="uil uil-calendar-alt"></i> {t('qualification.experience.section-1.calendar')}
                 </div>
               </div>
 
@@ -139,45 +141,45 @@ const Qualification = () => {
               </div>
 
               <div>
-                <h3 className="qualification__title">Intership</h3>
+                <h3 className="qualification__title">{t('qualification.experience.section-2.title')}</h3>
                 <div className="qualification__submenu">
                   <span className="qualification__subtitle">
                     INRAE - Theix
                   </span>
-                  <i className={`uil ${visibleSubmenus[1] ? "uil-minus" : "uil-plus"}`} onClick={() => toggleSubmenu(1)}></i>
+                  <i className={`uil ${visibleSubmenus[2] ? "uil-minus" : "uil-plus"}`} onClick={() => toggleSubmenu(2)}></i>
                 </div>
-                {visibleSubmenus[1] && (
+                {visibleSubmenus[2] && (
                   <div className="qualification__details">
                     <span className="qualification__details__description">
-                      Développement et implémentation de modèles de Plan de Gestion de Données dans un Système d’Information (Apache-PHP-Mysql).
+                      {t('qualification.experience.section-2.description')}
                     </span>
                   </div>
                 )}
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i> April - June 2023
+                  <i className="uil uil-calendar-alt"></i> {t('qualification.experience.section-2.calendar')}
                 </div>
               </div>
             </div>
 
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">IT assistant</h3>
+                <h3 className="qualification__title">{t('qualification.experience.section-3.title')}</h3>
                 <div className="qualification__submenu">
                   <span className="qualification__subtitle">
                     ADLIR Conseils - Lyon
                   </span>
-                  <i className={`uil ${visibleSubmenus[1] ? "uil-minus" : "uil-plus"}`} onClick={() => toggleSubmenu(1)}></i>
+                  <i className={`uil ${visibleSubmenus[3] ? "uil-minus" : "uil-plus"}`} onClick={() => toggleSubmenu(3)}></i>
                 </div>
-                {visibleSubmenus[1] && (
+                {visibleSubmenus[3] && (
                   <div className="qualification__details">
                     <span className="qualification__details__description">
-                      Vérification effectuée sur les dossiers des clients, par l'intermédiaire de différents tableaux Excel, un peu de programmation pour automatiser des taches (Python). <br/>
-                      Création d’une application web pour regrouper les informations sur les clients, fait en Nextjs.
+                      {t('qualification.experience.section-3.description-1')} <br/>
+                      {t('qualification.experience.section-3.description-2')}
                     </span>
                   </div>
                 )}
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i> July - August 2023
+                  <i className="uil uil-calendar-alt"></i>  {t('qualification.experience.section-3.calendar')}
                 </div>
               </div>
 
@@ -193,17 +195,17 @@ const Qualification = () => {
               <div className="contact__card">
                 <i className="uil uil-language contact__card-icon"></i>
 
-                <h3 className="qualification__card-title">Languages</h3>
+                <h3 className="qualification__card-title">{t('qualification.languages.title')}</h3>
                 <div className="qualification__card-language">
                   <img src={France} alt='England' width={40}></img>
-                  <span>French</span>
-                  <i>Fluent</i>
+                  <span>{t('qualification.languages.language-1.name')}</span>
+                  <i>{t('qualification.languages.language-1.level')}</i>
                 </div>
 
                 <div className="qualification__card-language">
                   <img src={England} alt='England' width={40}></img>
-                  <span>English</span>
-                  <i>Fluent</i>
+                  <span>{t('qualification.languages.language-2.name')}</span>
+                  <i>{t('qualification.languages.language-2.level')}</i>
                 </div>
               </div>
             </div>

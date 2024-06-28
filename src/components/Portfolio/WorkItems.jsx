@@ -1,7 +1,11 @@
 import React from "react";
 import "./work.css";
+import { useTranslation } from "react-i18next";
+import { Link } from 'react-router-dom';
 
 const WorkItems = ({ item }) => {
+  const { t } = useTranslation('common');
+
   return (
     <div className="work__card">
       <div className="work__img-container">
@@ -19,12 +23,17 @@ const WorkItems = ({ item }) => {
           )}
           {item.url && (
             <a href={`https://${item.url}`} target="_blank" rel="noopener noreferrer" className="work__icon">
-              <i className="fas fa-eye"></i>
+              <i className="fas fa-link"></i>
             </a>
           )}
         </div>
       </div>
-      <h3 className="work__title">{item.title}</h3>
+      <div className="work__card__footer">
+        <h3 className="work__title">{item.title}</h3>
+        <Link to={`/project/${item.id}`} className="active-work work__item">
+          {t(`projects.details`)}
+        </Link>
+      </div>
     </div>
   );
 };

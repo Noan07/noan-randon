@@ -1,4 +1,5 @@
 import Image1 from "../../assets/testimonial/testimonial1.jpeg";
+import Image2 from "../../assets/testimonial/testimonial2.png";
 
 export const Data = [
   {
@@ -11,7 +12,7 @@ export const Data = [
   },
   {
     id: 2,
-    image: Image1,
+    image: Image2,
     title: "Rami Khedair",
     status: "Student",
     description:

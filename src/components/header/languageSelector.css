@@ -1,0 +1,36 @@
+.language-selector {
+    display: flex;
+    align-items: center;
+}
+
+.language-selector__button {
+    border: 2px solid black;
+    background: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+.language-selector__flag {
+    width: 30px;
+}
+
+.language-selector__options {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    border: 1px solid black;
+    background-color: white;
+}
+
+.language-selector__options button {
+    border: none;
+    background: none;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.language-selector__options button:hover {
+    background-color: #f0f0f0;
+}

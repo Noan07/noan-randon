@@ -3,12 +3,15 @@ import "./about.css";
 import AboutImg from "../../assets/about.jpg";
 import CV from "../../assets/CV_Noan_RANDON.pdf";
 import Info from "./Info";
+import {useTranslation} from "react-i18next";
 
 const About = () => {
+  const [t] = useTranslation('common');
+
   return (
     <section className="about section" id="about">
-      <h2 className="section__title">About Me</h2>
-      <span className="section__subtitle">My introduction</span>
+      <h2 className="section__title">{t('about.title')}</h2>
+      <span className="section__subtitle">{t('about.subtitle')}</span>
 
       <div className="about__container container grid">
         <img src={AboutImg} alt="" className="about__img" />
@@ -17,13 +20,13 @@ const About = () => {
           <Info />
 
           <p className="about__description">
-          Passionate developer for several years, <br />
-          I'm currently a third-year student at the IUT des Cézeaux. <br />
-          My goal is to continue my studies in engineering schools in order to deepen my skills as a developer and acquire new knowledge in the IT field.
+          {t('about.description-part-1')}<br />
+          {t('about.description-part-2')} <br />
+          {t('about.description-part-3')}
           </p>
 
           <a download="" href={CV} className="button button--flex">
-            Download CV
+            {t('about.download-cv')}
             <svg
               class="button__icon"
               xmlns="http://www.w3.org/2000/svg"
