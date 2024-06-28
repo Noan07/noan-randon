@@ -33,9 +33,9 @@ root.render(
       <I18nextProvider i18n={i18next}>
         <Header />
         <Routes>
-          <Route path="/" element={<App />}>
+          <Route path="/containers/noanrandon-portfolio" element={<App />}>
           </Route>
-          <Route path="/project/:id" element={<WorkDetails />}>
+          <Route path="/containers/noanrandon-portfolio/project/:id" element={<WorkDetails />}>
           </Route>
         </Routes>
         <ScrollUp />
