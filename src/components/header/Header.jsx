@@ -47,7 +47,7 @@ const Header = () => {
   return (
     <header className="header" ref={headerRef}>
       <nav className="nav container">
-        <a href="/" className="nav__logo">
+        <a href="/containers/noanrandon-portfolio" className="nav__logo">
           Randon
         </a>
 
