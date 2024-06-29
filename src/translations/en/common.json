@@ -64,7 +64,24 @@
             "web-app": "Web App",
             "mobile-app": "Mobile App"
         },
-        "details": "Details"
+        "details": "Details",
+        "work-details": {
+            "back": "Back",
+            "presentation": "Presentation",
+            "technologies": "Technologies Used",
+            "descriptions": {
+                "description1": "Algoboto is a cross-platform mobile application developed by a group of four students at the IUT Clermont-Auvergne, using .NET MAUI technology.\n This innovative school project is aimed at children and aims to teach them programming in a fun and interactive way. The application allows programming a Lego robot by embedding blocks and moving instructions in a way similar to Scratch.\n Children can thus create command sequences to animate the robot and perform various tasks. To develop Algoboto, we adopted an agile methodology, organizing ourselves in sprints according to the Scrum framework.\n This approach allowed us to work collaboratively and iteratively, continuously improving the product through feedback and suggestions from each team member. Demonstrations were then conducted in an elementary school to gather feedback and improvement points.",
+                "description2": "During our training in BUT Informatique, we developed a mobile application in React Native.\n This application allows users to view Star Wars characters, search for characters via a search bar, and view detailed descriptions of each character.\n It also offers the ability to save characters in a favorites list for later viewing. Additionally, our application offers a dark or light mode, as well as a choice of languages between French and English.\n For more information on the features of our application, you can consult the detailed description in the dedicated section.",
+                "description3": "Our project is a game heavily inspired by Pong, one of the first popular video games, created in 1972 by Atari.\n The game is a table tennis simulation where two players each control a vertical bar with a controller, with the goal of returning a ball to the other side of the screen.\n The player who scores the ball earns a point.\n The game continues until one of the players reaches a certain number of points.\n To make this iconic game fit the tastes of our time, we added modern and innovative features to our game LeapHit.\n To not forget the nostalgia of the original game, LeapHit will adopt a dynamic retro style, with a palette of bright colors and neon accents.\n Players can also choose the device they want to use, such as the camera, Leap Motion, or the mouse.",
+                "description4": "iOS mobile application developed in Swift. This application offers a traditional Chinese game called Dou Shou Qi, whose origins date back to the 5th century.\n The user can play against another user or against artificial intelligence. He also has the possibility to play in augmented reality, either against another user or against AI.\n Other interesting features are to be discovered, such as dark mode, language change, and many more. This project allowed me to discover the key points of Swift and acquire solid basic knowledge in this language."
+            },
+            "durations": {
+                "duration1": "Sep 2023 - Jun 2024",
+                "duration2": "Feb 2023 - Mar 2023",
+                "duration3": "Jan 2023 - Apr 2023",
+                "duration4": "May 2024 - Jun 2024"
+            }
+        }
     },
     "qualification": {
         "title": "Qualification",
@@ -107,8 +124,8 @@
         "title": "Testimonial",
         "subtitle": "People around to me saying",
         "testimonial-1": {
-            "status": "Technical Manager - Harvest",
-            "description": ""
+            "status": "Student",
+            "description": "Noan is an extremely disciplined person when needed, and I truly admire this quality in him. I envy his ability to take his computer and work anywhere, even if it's just for a short period. Throughout our studies, although we never worked together on a project, witnessing how he approached his student responsibilities motivated and inspired me to work harder. His determination and work ethic are truly exemplary."
         },
         "testimonial-2": {
             "status": "Student",
@@ -116,7 +133,7 @@
         },
         "testimonial-3": {
             "status": "Chartered Accountant - ADLIR Conseils",
-            "description": ""
+            "description": "Noan worked at my company and significantly improved and simplified several repetitive tasks through the creation of automated scripts. His work not only increased our efficiency but also freed up time for more strategic tasks. I am extremely satisfied with his contribution and dedication."
         }
     },
     "contact": {
@@ -138,6 +155,6 @@
         }
     },
     "footer": {
-        "copyright": "Copyright &#169; 2024 by Noan Randon | All rigths reserved"
+        "copyright": " 2024 by Noan Randon | All rigths reserved"
     }
 }

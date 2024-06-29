@@ -17,19 +17,19 @@ const Projects = () => {
     }
     else if (item.name === "sae") {
       const newProjects = projectsData.filter((project) => {
-        return project.category === "SAE";
+        return project.category.includes("SAE");
       });
       setProjects(newProjects); 
     }
     else if (item.name === "web app" || item.name === "application web") {
       const newProjectsWeb = projectsData.filter((project) => {
-        return project.category === "Web App";
+        return project.category.includes("Web App");
       });
       setProjects(newProjectsWeb); 
     }
     else if (item.name === "mobile app" || item.name === "application mobile") {
       const newProjectsMobile = projectsData.filter((project) => {
-        return project.category === "Mobile App";
+        return project.category.includes("Mobile App");
       });
       setProjects(newProjectsMobile); 
     }

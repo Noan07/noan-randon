@@ -20,11 +20,11 @@ const Social = () => {
       </a>
 
       <a
-        href="https://github.com/Noan07"
+        href="https://www.goodreads.com/user/show/179487982-noan"
         className="home__social-icon"
         target="_blank"
       >
-        <i className="uil uil-github-alt"></i>
+        <i className="fab fa-goodreads-g"></i>
       </a>
     </div>
   );

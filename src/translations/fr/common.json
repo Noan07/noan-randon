@@ -64,7 +64,24 @@
             "web-app": "Application Web",
             "mobile-app": "Application Mobile"
         },
-        "details": "Détails"
+        "details": "Détails",
+        "work-details": {
+            "back": "Retour",
+            "presentation": "Présentation",
+            "technologies": "Technologies Utilisées",
+            "descriptions": {
+                "description1": "Algoboto est une application mobile cross-platform développée en groupe de quatre étudiants à l'IUT Clermont-Auvergne, utilisant la technologie .NET MAUI.\n Ce projet scolaire innovant est destiné aux enfants et a pour objectif de leur apprendre la programmation de manière ludique et interactive. L'application permet de programmer un robot Lego en imbriquant des blocs et en déplaçant des instructions à la manière de Scratch.\n Les enfants peuvent ainsi créer des séquences de commandes pour animer le robot et réaliser diverses tâches.Pour développer Algoboto, nous avons adopté une méthodologie agile, en nous organisant en sprints selon le cadre Scrum.\n Cette approche nous a permis de travailler de manière collaborative et itérative, en améliorant continuellement le produit grâce aux retours et aux suggestions de chaque membre de l'équipe. Des démonstrations ont ensuite été réalisées dans une école primaire pour recueillir des avis et des points d'amélioration.",
+                "description2": "Au cours de notre formation en BUT Informatique, nous avons développé une application mobile en React Native.\n Cette application permet aux utilisateurs de visualiser les personnages de Star Wars, de rechercher des personnages via une barre de recherche, et de consulter des descriptions détaillées de chaque personnage.\n Elle offre également la possibilité de sauvegarder des personnages dans une liste de favoris pour une consultation ultérieure. En outre, notre application propose un mode sombre ou clair, ainsi qu'un choix de langues entre le français et l'anglais.\n Pour en savoir plus sur les fonctionnalités de notre application, vous pouvez consulter la description détaillée dans la section dédiée.",
+                "description3": "Notre projet est un jeu fortement inspiré du Pong qui est un des premiers jeux vidéo populaires, créé en 1972 par Atari.\n Le jeu consiste en une simulation de tennis de table, où deux joueurs contrôlent chacun une barre verticale à l'aide d'une manette, avec pour objectif de renvoyer une balle de l'autre côté de l'écran.\n Le joueur qui marque la balle gagne un point.\n Le jeu se poursuit jusqu'à ce qu'un des joueurs atteigne un certain nombre de points.\n Afin de rendre ce jeu emblématique au goût de notre époque, nous avons ajouté à notre jeu LeapHit la particularité d’être moderne et d’avoir des fonctionnalités innovantes.\n Pour ne pas oublier la nostalgie du jeu initial, LeapHit adoptera un style rétro dynamique, avec une palette de couleurs vives et des touches de couleurs néons.\n Les joueurs pourront aussi choisir le périphérique qu'ils souhaitent utiliser, comme la caméra, le Leap Motion ou la souris.",
+                "description4": "Application mobile pour iOS réalisée en Swift. Cette application propose un jeu traditionnel chinois appelé Dou Shou Qi, dont les origines remontent au Vème siècle.\n L'utilisateur peut jouer contre un autre utilisateur ou contre une intelligence artificielle.\n Il a également la possibilité de jouer en réalité augmentée, que ce soit contre un autre utilisateur ou contre une IA.\n D'autres fonctionnalités intéressantes sont à découvrir, comme le mode sombre, le changement de langue et bien d'autres encore. Ce projet m'a permis de découvrir les points clés de Swift et d'acquérir des connaissances de base solides dans ce langage."
+            },
+            "durations": {
+                "duration1": "Sep 2023 - Juin 2024",
+                "duration2": "Février 2023 - Mars 2023",
+                "duration3": "Jan 2023 - Avril 2023",
+                "duration4": "Mai 2024 - Juin 2024"
+            }
+        }
     },
     "qualification": {
         "title": "Qualifications",
@@ -107,8 +124,8 @@
         "title": "Témoignages",
         "subtitle": "Ce que disent les gens autour de moi",
         "testimonial-1": {
-            "status": "Responsable Technique - Harvest",
-            "description": ""
+            "status": "Étudiant",
+            "description": "Noan est une personne extrêmement disciplinée quand il le faut, et j'admire vraiment cette qualité chez lui. Je l'envie pour sa capacité à prendre son ordinateur et à travailler n'importe où, même si ce n'est que pour une courte période. Tout au long de nos études, bien que nous n'ayons jamais travaillé ensemble sur un projet, voir la manière dont il abordait ses responsabilités d'étudiant m'a motivé et inspiré à travailler plus dur. Sa détermination et son éthique de travail sont véritablement exemplaires."
         },
         "testimonial-2": {
             "status": "Étudiant",
@@ -116,7 +133,7 @@
         },
         "testimonial-3": {
             "status": "Expert-Comptable - ADLIR Conseils",
-            "description": ""
+            "description": "Noan a travaillé dans mon entreprise et a significativement amélioré et simplifié plusieurs tâches répétitives grâce à la création de scripts automatisés. Son travail a non seulement augmenté notre efficacité, mais a également permis de libérer du temps pour des tâches plus stratégiques. Je suis extrêmement satisfait de son apport et de son engagement."
         }
     },
     "contact": {
@@ -138,6 +155,6 @@
         }
     },    
     "footer": {
-        "copyright": "Copyright &#169; 2024 par Noan Randon | Tous droits réservés"
+        "copyright": " 2024 par Noan Randon | Tous droits réservés"
     }
 }

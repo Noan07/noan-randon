@@ -1,11 +1,12 @@
 import Image1 from "../../assets/testimonial/testimonial1.jpeg";
 import Image2 from "../../assets/testimonial/testimonial2.png";
+import Image3 from "../../assets/testimonial/testimonial3.jpeg";
 
 export const Data = [
   {
     id: 1,
-    image: Image1,
-    title: "Laurent Randon",
+    image: Image3,
+    title: "Nicolas Franco",
     status: "Chartered Accountant - ADLIR Conseils",
     description:
       "A really good job, all aspects of the project were followed step by step and with good results.",
@@ -21,7 +22,7 @@ export const Data = [
   {
     id: 3,
     image: Image1,
-    title: "Benjamin Dupont",
+    title: "Laurent Randon",
     status: "Tech Leader - Harvest",
     description:
       "A really good job, all aspects of the project were followed step by step and with good results.",
