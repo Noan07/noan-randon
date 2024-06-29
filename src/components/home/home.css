@@ -13,6 +13,7 @@
   display: grid;
   grid-template-columns: max-content;
   row-gap: 1rem;
+  text-align: center;
 }
 
 .home__social-icon {
