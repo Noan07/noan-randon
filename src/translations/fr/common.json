@@ -12,7 +12,7 @@
             "animation-1": "Étudiant en informatique",
             "animation-2": "Développeur Web",
             "animation-3": "Développeur Mobile",
-            "description": "Je suis développeur basé à Clermont-Ferrand, et je suis très passionné et dévoué dans mon travail."
+            "description": "Je suis un développeur basé sur Clermont-Ferrand, et je suis très passionné et dévoué dans mon travail."
         },
         "scroll-down": {
             "scroll-down": "Défiler vers le bas"
@@ -37,7 +37,7 @@
         },
         "description-part-1": "Développeur passionné depuis plusieurs années, ",
         "description-part-2": "je suis actuellement en troisième année à l'IUT des Cézeaux. ",
-        "description-part-3": "Mon objectif est de continuer mes études en écoles d'ingénieurs afin d'approfondir mes compétences de développeur et d'acquérir de nouvelles connaissances dans le domaine de l'informatique.",
+        "description-part-3": "Mon objectif est de continuer mes études en école d'ingénieur afin d'approfondir mes compétences de développeur et d'acquérir de nouvelles connaissances dans le domaine de l'informatique.",
         "download-cv": "Télécharger CV"
     },
     "skills": {
