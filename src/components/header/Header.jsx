@@ -38,7 +38,7 @@ const Header = () => {
 
   const handleNavClick = (section) => {
     setActiveNav(section);
-    navigate('/containers/noanrandon-portfolio'); // Ensure we navigate to the home page
+    navigate('/'); // Ensure we navigate to the home page
     setTimeout(() => {
       window.location.hash = section; // Then set the hash for the section
     }, 100); // Delay to allow navigation to home
@@ -47,7 +47,7 @@ const Header = () => {
   return (
     <header className="header" ref={headerRef}>
       <nav className="nav container">
-        <a href="/containers/noanrandon-portfolio" className="nav__logo">
+        <a href="/" className="nav__logo">
           Randon
         </a>
 

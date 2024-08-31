@@ -30,7 +30,7 @@ const WorkItems = ({ item }) => {
       </div>
       <div className="work__card__footer">
         <h3 className="work__title">{item.title}</h3>
-        <Link to={`/containers/noanrandon-portfolio/project/${item.id}`} className="active-work work__item">
+        <Link to={`/project/${item.id}`} className="active-work work__item">
           {t(`projects.details`)}
         </Link>
       </div>
