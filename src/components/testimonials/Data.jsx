@@ -18,13 +18,5 @@ export const Data = [
     status: "Student",
     description:
       "A really good job, all aspects of the project were followed step by step and with good results.",
-  },
-  {
-    id: 3,
-    image: Image1,
-    title: "Laurent Randon",
-    status: "Tech Leader - Harvest",
-    description:
-      "A really good job, all aspects of the project were followed step by step and with good results.",
-  },
+  }
 ];
