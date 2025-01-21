@@ -19,6 +19,7 @@ const Contact = () => {
       alert("Email envoyé avec succès !");
       console.log(result.text);
     }, (error) => {
+      console.log(process.env.REACT_APP_EMAILJS_TEMPLATE_ID);
       alert("Une erreur est survenue, veuillez réessayer.");
       console.log(error.text);
     });
