@@ -1,6 +1,7 @@
 import React from "react";
 import "./about.css";
-import AboutImg from "../../assets/about.jpg";
+import AboutImg1 from "../../assets/about.jpg";
+import AboutImg2 from "../../assets/about3.jpg";
 import CV from "../../assets/CV_Noan_RANDON.pdf";
 import Info from "./Info";
 import {useTranslation} from "react-i18next";
@@ -8,13 +9,17 @@ import {useTranslation} from "react-i18next";
 const About = () => {
   const [t] = useTranslation('common');
 
+  const getRandomImage = () => {
+    return Math.random() < 0.5 ? AboutImg1 : AboutImg2;
+  };
+
   return (
     <section className="about section" id="about">
       <h2 className="section__title">{t('about.title')}</h2>
       <span className="section__subtitle">{t('about.subtitle')}</span>
 
       <div className="about__container container grid">
-        <img src={AboutImg} alt="" className="about__img" />
+        <img src={getRandomImage()} alt="" className="about__img" />
 
         <div className="about__data">
           <Info />

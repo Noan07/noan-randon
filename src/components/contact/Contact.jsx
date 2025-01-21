@@ -1,5 +1,5 @@
 import React, { useRef } from "react";
-//import emailjs from '@emailjs/browser';
+import emailjs from '@emailjs/browser';
 import "./contact.css";
 import { useTranslation } from "react-i18next";
 
@@ -10,15 +10,20 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    // emailjs
-    //   .sendForm(
-    //     "service_x1hewh5",
-    //     "template_2ki8hlo",
-    //     form.current,
-    //     "vxDcl4UI2jbOQBn6f"
-    //   )
-    //   e.target.reset()
+    emailjs.sendForm(
+      process.env.REACT_APP_EMAILJS_SERVICE_ID,
+      process.env.REACT_APP_EMAILJS_TEMPLATE_ID,
+      form.current,
+      process.env.REACT_APP_EMAILJS_USER_ID
+    ).then((result) => {
+      alert("Email envoyé avec succès !");
+      console.log(result.text);
+    }, (error) => {
+      alert("Une erreur est survenue, veuillez réessayer.");
+      console.log(error.text);
+    });
   };
+  
 
   return (
     <section className="contact section" id="contact">
@@ -89,7 +94,7 @@ const Contact = () => {
             <div className="contact__form-div contact__form-area">
               <label className="contact__form-tag">{t('contact.form.message')}</label>
               <textarea
-                name="project"
+                name="message"
                 cols="30"
                 rows="10"
                 className="contact__form-input"
