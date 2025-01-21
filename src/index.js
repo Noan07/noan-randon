@@ -12,6 +12,7 @@ import WorkDetails from './components/Portfolio/WorkDetails';
 import Header from './components/header/Header';
 import Footer from './components/footer/Footer';
 import ScrollUp from './components/scrollup/ScrollUp';
+import Blog from './components/blog/Blog';
 
 i18next.init({
     interpolation: { escapeValue: false },  // React already does escaping
@@ -34,6 +35,8 @@ root.render(
         <Header />
         <Routes>
           <Route path="/" element={<App />}>
+          </Route>
+          <Route path="/blog" element={<Blog />}>
           </Route>
           <Route path="/project/:id" element={<WorkDetails />}>
           </Route>
