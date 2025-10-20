@@ -2,12 +2,13 @@ import React from "react";
 import "./about.css";
 import AboutImg1 from "../../assets/about.jpg";
 import AboutImg2 from "../../assets/about3.jpg";
-import CV from "../../assets/CV_Noan_RANDON.pdf";
+import CVFrench from "../../assets/about/CV_Noan_RANDON_French.pdf";
+import CVEnglish from "../../assets/about/CV_Noan_RANDON_English.pdf";
 import Info from "./Info";
-import {useTranslation} from "react-i18next";
+import { useTranslation } from "react-i18next";
 
 const About = () => {
-  const [t] = useTranslation('common');
+  const [t, i18n] = useTranslation("common");
 
   const getRandomImage = () => {
     return Math.random() < 0.5 ? AboutImg1 : AboutImg2;
@@ -15,8 +16,8 @@ const About = () => {
 
   return (
     <section className="about section" id="about">
-      <h2 className="section__title">{t('about.title')}</h2>
-      <span className="section__subtitle">{t('about.subtitle')}</span>
+      <h2 className="section__title">{t("about.title")}</h2>
+      <span className="section__subtitle">{t("about.subtitle")}</span>
 
       <div className="about__container container grid">
         <img src={getRandomImage()} alt="" className="about__img" />
@@ -25,13 +26,18 @@ const About = () => {
           <Info />
 
           <p className="about__description">
-          {t('about.description-part-1')}<br />
-          {t('about.description-part-2')} <br />
-          {t('about.description-part-3')}
+            {t("about.description-part-1")}
+            <br />
+            {t("about.description-part-2")} <br />
+            {t("about.description-part-3")}
           </p>
 
-          <a download="" href={CV} className="button button--flex">
-            {t('about.download-cv')}
+          <a
+            download=""
+            href={i18n.language === "fr" ? CVFrench : CVEnglish}
+            className="button button--flex"
+          >
+            {t("about.download-cv")}
             <svg
               class="button__icon"
               xmlns="http://www.w3.org/2000/svg"

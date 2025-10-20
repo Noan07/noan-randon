@@ -8,30 +8,35 @@ const Projects = () => {
   const [item, setItem] = useState({ name: "all" });
   const [projects, setProjects] = useState([]);
   const [active, setActive] = useState(0);
-  const { t } = useTranslation('common');
+  const { t } = useTranslation("common");
 
   useEffect(() => {
     // get projects based on item
     if (item.name === "all" || item.name === "tous") {
       setProjects(projectsData);
-    }
-    else if (item.name === "sae") {
+    } else if (item.name === "sae") {
       const newProjects = projectsData.filter((project) => {
         return project.category.includes("SAE");
       });
-      setProjects(newProjects); 
-    }
-    else if (item.name === "web app" || item.name === "application web") {
+      setProjects(newProjects);
+    } else if (item.name === "iot") {
+      const newProjects = projectsData.filter((project) => {
+        return project.category.includes("IoT");
+      });
+      setProjects(newProjects);
+    } else if (item.name === "web app" || item.name === "application web") {
       const newProjectsWeb = projectsData.filter((project) => {
         return project.category.includes("Web App");
       });
-      setProjects(newProjectsWeb); 
-    }
-    else if (item.name === "mobile app" || item.name === "application mobile") {
+      setProjects(newProjectsWeb);
+    } else if (
+      item.name === "mobile app" ||
+      item.name === "application mobile"
+    ) {
       const newProjectsMobile = projectsData.filter((project) => {
         return project.category.includes("Mobile App");
       });
-      setProjects(newProjectsMobile); 
+      setProjects(newProjectsMobile);
     }
   }, [item]);
 
@@ -68,4 +73,3 @@ const Projects = () => {
 };
 
 export default Projects;
-

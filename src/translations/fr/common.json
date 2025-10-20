@@ -1,160 +1,189 @@
 {
-    "header": {
-        "home": "Accueil",
-        "about": "À propos",
-        "skills": "Compétences",
-        "projects": "Portfolio",
-        "qualification": "Qualifications"
+  "header": {
+    "home": "Accueil",
+    "about": "À propos",
+    "skills": "Compétences",
+    "projects": "Portfolio",
+    "qualification": "Qualifications"
+  },
+  "home": {
+    "data": {
+      "project": "Projets",
+      "animation-1": "Étudiant en informatique",
+      "animation-2": "Développeur Web",
+      "animation-3": "Développeur Mobile",
+      "description": "Je suis un développeur basé sur Clermont-Ferrand, et je suis très passionné et dévoué dans mon travail."
     },
-    "home": {
-        "data": {
-            "project": "Projets",
-            "animation-1": "Étudiant en informatique",
-            "animation-2": "Développeur Web",
-            "animation-3": "Développeur Mobile",
-            "description": "Je suis un développeur basé sur Clermont-Ferrand, et je suis très passionné et dévoué dans mon travail."
-        },
-        "scroll-down": {
-            "scroll-down": "Défiler vers le bas"
-        }
-    },
-    "about": {
-        "title": "À propos de moi",
-        "subtitle": "Mon introduction",
-        "info": {
-            "about-box-1": {
-                "title": "Diplôme",
-                "subtitle": "BUT Informatique"
-            },
-            "about-box-2": {
-                "title": "Terminés",
-                "subtitle": "Projets"
-            },
-            "about-box-3": {
-                "title": "Cafés",
-                "subtitle": "Tasses"
-            }
-        },
-        "description-part-1": "Développeur passionné depuis plusieurs années, ",
-        "description-part-2": "je suis actuellement en troisième année à l'IUT des Cézeaux. ",
-        "description-part-3": "Mon objectif est de continuer mes études en école d'ingénieur afin d'approfondir mes compétences de développeur et d'acquérir de nouvelles connaissances dans le domaine de l'informatique.",
-        "download-cv": "Télécharger CV"
-    },
-    "skills": {
-        "title": "Compétences",
-        "subtitle": "Mon niveau technique",
-        "data": {
-            "programming": "Programmation",
-            "utils": "Outils",
-            "dev-ops": "DevOps",
-            "dev-web": "Développement Web",
-            "dev-mobile": "Développement Mobile",
-            "bdd": "Base de données",
-            "intermediate": "Intermédiaire",
-            "advanced": "Avancé",
-            "basic": "Débutant"
-        }
-    },
-    "projects": {
-        "title": "Portfolio",
-        "subtitle": "Travaux les plus récents",
-        "filters": {
-            "all": "Tous",
-            "sae": "SAE",
-            "web-app": "Application Web",
-            "mobile-app": "Application Mobile"
-        },
-        "details": "Détails",
-        "work-details": {
-            "back": "Retour",
-            "presentation": "Présentation",
-            "technologies": "Technologies Utilisées",
-            "descriptions": {
-                "description1": "Algoboto est une application mobile cross-platform développée en groupe de quatre étudiants à l'IUT Clermont-Auvergne, utilisant la technologie .NET MAUI.\n Ce projet scolaire innovant est destiné aux enfants et a pour objectif de leur apprendre la programmation de manière ludique et interactive. L'application permet de programmer un robot Lego en imbriquant des blocs et en déplaçant des instructions à la manière de Scratch.\n Les enfants peuvent ainsi créer des séquences de commandes pour animer le robot et réaliser diverses tâches.Pour développer Algoboto, nous avons adopté une méthodologie agile, en nous organisant en sprints selon le cadre Scrum.\n Cette approche nous a permis de travailler de manière collaborative et itérative, en améliorant continuellement le produit grâce aux retours et aux suggestions de chaque membre de l'équipe. Des démonstrations ont ensuite été réalisées dans une école primaire pour recueillir des avis et des points d'amélioration.",
-                "description2": "Au cours de notre formation en BUT Informatique, nous avons développé une application mobile en React Native.\n Cette application permet aux utilisateurs de visualiser les personnages de Star Wars, de rechercher des personnages via une barre de recherche, et de consulter des descriptions détaillées de chaque personnage.\n Elle offre également la possibilité de sauvegarder des personnages dans une liste de favoris pour une consultation ultérieure. En outre, notre application propose un mode sombre ou clair, ainsi qu'un choix de langues entre le français et l'anglais.\n Pour en savoir plus sur les fonctionnalités de notre application, vous pouvez consulter la description détaillée dans la section dédiée.",
-                "description3": "Notre projet est un jeu fortement inspiré du Pong qui est un des premiers jeux vidéo populaires, créé en 1972 par Atari.\n Le jeu consiste en une simulation de tennis de table, où deux joueurs contrôlent chacun une barre verticale à l'aide d'une manette, avec pour objectif de renvoyer une balle de l'autre côté de l'écran.\n Le joueur qui marque la balle gagne un point.\n Le jeu se poursuit jusqu'à ce qu'un des joueurs atteigne un certain nombre de points.\n Afin de rendre ce jeu emblématique au goût de notre époque, nous avons ajouté à notre jeu LeapHit la particularité d’être moderne et d’avoir des fonctionnalités innovantes.\n Pour ne pas oublier la nostalgie du jeu initial, LeapHit adoptera un style rétro dynamique, avec une palette de couleurs vives et des touches de couleurs néons.\n Les joueurs pourront aussi choisir le périphérique qu'ils souhaitent utiliser, comme la caméra, le Leap Motion ou la souris.",
-                "description4": "Application mobile pour iOS réalisée en Swift. Cette application propose un jeu traditionnel chinois appelé Dou Shou Qi, dont les origines remontent au Vème siècle.\n L'utilisateur peut jouer contre un autre utilisateur ou contre une intelligence artificielle.\n Il a également la possibilité de jouer en réalité augmentée, que ce soit contre un autre utilisateur ou contre une IA.\n D'autres fonctionnalités intéressantes sont à découvrir, comme le mode sombre, le changement de langue et bien d'autres encore. Ce projet m'a permis de découvrir les points clés de Swift et d'acquérir des connaissances de base solides dans ce langage."
-            },
-            "durations": {
-                "duration1": "Sep 2023 - Juin 2024",
-                "duration2": "Février 2023 - Mars 2023",
-                "duration3": "Jan 2023 - Avril 2023",
-                "duration4": "Mai 2024 - Juin 2024"
-            }
-        }
-    },
-    "qualification": {
-        "title": "Qualifications",
-        "subtitle": "Mon parcours personnel",
-        "education": {
-            "title": "Éducation"
-        },
-        "experience": {
-            "title": "Expérience",
-            "section-1": {
-                "title": "Alternance",
-                "description": "Développement d’une application web permettant de conseiller nos clients sur la gestion du patrimoine. Les technologies utilisées sont les suivantes : Angular (Front), Symfony (API), MariaDB (BDD), Docker.",
-                "calendar": "Sep 2023 - Présent"
-            },
-            "section-2": {
-                "title": "Stage",
-                "description": "Développement et implémentation de modèles de Plan de Gestion de Données dans un Système d’Information (Apache-PHP-MySQL).",
-                "calendar": "Avril - Juin 2023"
-            },
-            "section-3": {
-                "title": "Assistant Informatique",
-                "description-1": "Vérification effectuée sur les dossiers des clients, par l'intermédiaire de différents tableaux Excel, un peu de programmation pour automatiser des taches (Python).",
-                "description-2": "Création d’une application web pour regrouper les informations sur les clients, fait en Nextjs.",
-                "calendar": "Juillet - Août 2023"
-            }
-        },
-        "languages": {
-            "title": "Langues",
-            "language-1": {
-                "name": "Français",
-                "level": "Courant"
-            },
-            "language-2": {
-                "name": "Anglais",
-                "level": "Courant"
-            }
-        }
-    },
-    "testimonial": {
-        "title": "Témoignages",
-        "subtitle": "Ce que disent les gens autour de moi",
-        "testimonial-1": {
-            "status": "Étudiant",
-            "description": "Noan est une personne extrêmement disciplinée quand il le faut, et j'admire vraiment cette qualité chez lui. Je l'envie pour sa capacité à prendre son ordinateur et à travailler n'importe où, même si ce n'est que pour une courte période. Tout au long de nos études, bien que nous n'ayons jamais travaillé ensemble sur un projet, voir la manière dont il abordait ses responsabilités d'étudiant m'a motivé et inspiré à travailler plus dur. Sa détermination et son éthique de travail sont véritablement exemplaires."
-        },
-        "testimonial-2": {
-            "status": "Étudiant",
-            "description": "Noan est une personne travailleuse et sérieuse. Nous avons collaboré sur de nombreux projets, et il m'a toujours impressionné par sa capacité à s'adapter. Il prend souvent en charge les tâches que les autres membres de l'équipe ne veulent pas faire, montrant ainsi son engagement et son esprit d'équipe."
-        },
-        "testimonial-3": {
-            "status": "Expert-Comptable - ADLIR Conseils",
-            "description": "Noan a travaillé dans mon entreprise et a significativement amélioré et simplifié plusieurs tâches répétitives grâce à la création de scripts automatisés. Son travail a non seulement augmenté notre efficacité, mais a également permis de libérer du temps pour des tâches plus stratégiques. Je suis extrêmement satisfait de son apport et de son engagement."
-        }
-    },
-    "contact": {
-        "title": "Me contacter",
-        "subtitle": "Contactez-moi",
-        "card": {
-            "title": "Parlez-moi",
-            "contact": "Email",
-            "button": "Écrivez-moi"
-        },
-        "form": {
-            "name": "Nom",
-            "placeholder-name": "Entrez votre nom",
-            "mail": "Email",
-            "placeholder-mail": "Entrez votre email",
-            "message": "Message",
-            "placeholder-message": "Écrivez votre message",
-            "send": "Envoyer le message"
-        }
-    },    
-    "footer": {
-        "copyright": " 2024 par Noan Randon | Tous droits réservés"
+    "scroll-down": {
+      "scroll-down": "Défiler vers le bas"
     }
+  },
+  "about": {
+    "title": "À propos de moi",
+    "subtitle": "Mon introduction",
+    "info": {
+      "about-box-1": {
+        "title": "Diplôme",
+        "subtitle": "BUT Informatique"
+      },
+      "about-box-2": {
+        "title": "Terminés",
+        "subtitle": "Projets"
+      },
+      "about-box-3": {
+        "title": "Cafés",
+        "subtitle": "Tasses"
+      }
+    },
+    "description-part-1": "Développeur passionné depuis plusieurs années, ",
+    "description-part-2": "je suis actuellement en deuxième année d'École d'Ingénieur en Informatique à l'ISIMA, en apprentissage. ",
+    "description-part-3": "Mon objectif est d'acquérir à l’aide de cette formation des compétences avancées pour devenir chef de projet.",
+    "download-cv": "Télécharger CV"
+  },
+  "skills": {
+    "title": "Compétences",
+    "subtitle": "Mon niveau technique",
+    "data": {
+      "programming": "Programmation",
+      "utils": "Outils",
+      "dev-ops": "DevOps",
+      "dev-web": "Développement Web",
+      "dev-mobile": "Développement Mobile",
+      "bdd": "Base de données",
+      "intermediate": "Intermédiaire",
+      "advanced": "Avancé",
+      "basic": "Débutant"
+    }
+  },
+  "projects": {
+    "title": "Portfolio",
+    "subtitle": "Travaux les plus récents",
+    "filters": {
+      "all": "Tous",
+      "sae": "SAE",
+      "web-app": "Application Web",
+      "mobile-app": "Application Mobile",
+      "iot": "IoT"
+    },
+    "details": "Détails",
+    "work-details": {
+      "back": "Retour",
+      "presentation": "Présentation",
+      "technologies": "Technologies Utilisées",
+      "personal-project": "Projet personnel",
+      "school-project": "Projet scolaire",
+      "descriptions": {
+        "description1": "Algoboto est une application mobile cross-platform développée en groupe de quatre étudiants à l'IUT Clermont-Auvergne, utilisant la technologie .NET MAUI.\n Ce projet scolaire innovant est destiné aux enfants et a pour objectif de leur apprendre la programmation de manière ludique et interactive. L'application permet de programmer un robot Lego en imbriquant des blocs et en déplaçant des instructions à la manière de Scratch.\n Les enfants peuvent ainsi créer des séquences de commandes pour animer le robot et réaliser diverses tâches.Pour développer Algoboto, nous avons adopté une méthodologie agile, en nous organisant en sprints selon le cadre Scrum.\n Cette approche nous a permis de travailler de manière collaborative et itérative, en améliorant continuellement le produit grâce aux retours et aux suggestions de chaque membre de l'équipe. Des démonstrations ont ensuite été réalisées dans une école primaire pour recueillir des avis et des points d'amélioration.",
+        "description2": "Au cours de notre formation en BUT Informatique, nous avons développé une application mobile en React Native.\n Cette application permet aux utilisateurs de visualiser les personnages de Star Wars, de rechercher des personnages via une barre de recherche, et de consulter des descriptions détaillées de chaque personnage.\n Elle offre également la possibilité de sauvegarder des personnages dans une liste de favoris pour une consultation ultérieure. En outre, notre application propose un mode sombre ou clair, ainsi qu'un choix de langues entre le français et l'anglais.\n Pour en savoir plus sur les fonctionnalités de notre application, vous pouvez consulter la description détaillée dans la section dédiée.",
+        "description3": "Notre projet est un jeu fortement inspiré du Pong qui est un des premiers jeux vidéo populaires, créé en 1972 par Atari.\n Le jeu consiste en une simulation de tennis de table, où deux joueurs contrôlent chacun une barre verticale à l'aide d'une manette, avec pour objectif de renvoyer une balle de l'autre côté de l'écran.\n Le joueur qui marque la balle gagne un point.\n Le jeu se poursuit jusqu'à ce qu'un des joueurs atteigne un certain nombre de points.\n Afin de rendre ce jeu emblématique au goût de notre époque, nous avons ajouté à notre jeu LeapHit la particularité d’être moderne et d’avoir des fonctionnalités innovantes.\n Pour ne pas oublier la nostalgie du jeu initial, LeapHit adoptera un style rétro dynamique, avec une palette de couleurs vives et des touches de couleurs néons.\n Les joueurs pourront aussi choisir le périphérique qu'ils souhaitent utiliser, comme la caméra, le Leap Motion ou la souris.",
+        "description4": "Application mobile pour iOS réalisée en Swift. Cette application propose un jeu traditionnel chinois appelé Dou Shou Qi, dont les origines remontent au Vème siècle.\n L'utilisateur peut jouer contre un autre utilisateur ou contre une intelligence artificielle.\n Il a également la possibilité de jouer en réalité augmentée, que ce soit contre un autre utilisateur ou contre une IA.\n D'autres fonctionnalités intéressantes sont à découvrir, comme le mode sombre, le changement de langue et bien d'autres encore. Ce projet m'a permis de découvrir les points clés de Swift et d'acquérir des connaissances de base solides dans ce langage.",
+        "description5": "Le projet consiste à développer une application mobile de reconnaissance musicale, inspirée de Shazam, permettant d’identifier un morceau à partir d’un court extrait audio grâce à un système d’audio fingerprinting basé sur l’algorithme breveté de Shazam.\n L’application, développée en React Native pour le frontend, Python pour le backend et MariaDB pour la base de données, repose sur un moteur de traitement du signal qui extrait les empreintes audio (via spectrogrammes et pics fréquentiels) et les compare à une base de données afin de fournir en quelques secondes le titre, l’artiste et l’album du morceau.\n Le projet inclut la modélisation UML (cas d’utilisation, diagramme d’architecture, diagramme de séquence), la conception de maquettes UI/UX (capture audio, analyse en cours, affichage du résultat, bibliotheque musicale).",
+        "description6": "J'ai réalisé un blog en React avec le framework Astro, afin de partager ma passion de l'informatique en mettant en avant des pompes rassemblant les éléments essentiels d'une technologie ou d'un langage de programmation, des astuces, des retours d'expérience etc.",
+        "description7": "WorkDeck a pour but d'être un support de travail, destiné à produire des données sur la journée de travail d'un individu.\n Pour cela nous avons créer un objet 3D, composé de différents modules interchangeable, dont chaque modules est une fonctionatlité différente.\n Nous avons 8 modules :\n - Compteur d'eau\n - Compteur de présence\n - Chronomètre\n - Pause Café : appel du Gang à aller prendre un café\n - Capture d'humeur\n - Capture de productivité\n - Toilette\n - Focus\n\n Afin de visualiser ces données nous avons une application mobile.\n Pour cela il est nécessaire de lier le téléphone portable au WorkDeck pour cela nous avons choisis d'utiliser à la fois le NFC et le bluetooth du téléphone.\n La gestion de gangs (groupe d'amis) est gérer dans l'application mobile, il est donc possible d'ajouter des personnes à un gang mais chaque utilisateur dans avoir un seul et unique gang actif."
+      },
+      "durations": {
+        "duration1": "Sep 2023 - Juin 2024",
+        "duration2": "Février 2023 - Mars 2023",
+        "duration3": "Jan 2023 - Avril 2023",
+        "duration4": "Mai 2024 - Juin 2024",
+        "duration5": "Sep 2024 – Juin 2025",
+        "duration6": "Sep 2024",
+        "duration7": "Juin 2025 - En cours"
+      }
+    }
+  },
+  "qualification": {
+    "title": "Qualifications",
+    "subtitle": "Mon parcours personnel",
+    "education": {
+      "title": "Éducation",
+      "section-1": {
+        "title": "Diplôme d’ingénieur en Informatique",
+        "location": "Clermont Auvergne INP - ISIMA",
+        "description-1": "Certified by the CyberEdu Label, which recognizes programs providing foundations in cybersecurity.",
+        "description-2": "Relevant modules: Mathematics, Graph Theory, Algorithms, Object-Oriented Programming, Databases, Cybersecurity, Networks.",
+        "calendar": "2024 – Actuellement"
+      },
+      "section-2": {
+        "title": "BUT Informatique",
+        "location": "IUT UCA",
+        "description-1": "An undergraduate vocational degree with Mobile Development Major.",
+        "description-2": "Relevant modules: Web Development, Databases, Software Engineering, Object-Oriented Programming, Mobile Development, Networking, Project Management, Agile/Scrum.",
+        "calendar": "Août 2024"
+      },
+      "section-3": {
+        "title": "Baccalauréat Génerale spécialité Mathématique et NSI",
+        "location": "Lycée Boissy d’Anglas",
+        "description-1": "Also completed the ICN option (Computer Science & Digital Sciences) in 10th grade.",
+        "calendar": "Juillet 2021"
+      }
+    },
+    "experience": {
+      "title": "Expérience",
+      "section-1": {
+        "title": "Alternance",
+        "description": "Développement d’une application web permettant de conseiller nos clients sur la gestion du patrimoine. Les technologies utilisées sont les suivantes : Angular (Front), Symfony (API), MariaDB (BDD), Docker.",
+        "calendar": "Sep 2023 - Actuellement"
+      },
+      "section-2": {
+        "title": "Stage",
+        "description": "Développement et implémentation de modèles de Plan de Gestion de Données dans un Système d’Information (Apache-PHP-MySQL).",
+        "calendar": "Avril - Juin 2023"
+      },
+      "section-3": {
+        "title": "Assistant Informatique",
+        "description-1": "Vérification effectuée sur les dossiers des clients, par l'intermédiaire de différents tableaux Excel, un peu de programmation pour automatiser des taches (Python).",
+        "description-2": "Création d’une application web pour regrouper les informations sur les clients, fait en Nextjs.",
+        "calendar": "Juillet - Août 2023"
+      }
+    },
+    "languages": {
+      "title": "Langues",
+      "language-1": {
+        "name": "Français",
+        "level": "Courant"
+      },
+      "language-2": {
+        "name": "Anglais",
+        "level": "Intermédiaire"
+      },
+      "language-3": {
+        "name": "Allemand",
+        "level": "Débutant"
+      }
+    }
+  },
+  "testimonial": {
+    "title": "Témoignages",
+    "subtitle": "Ce que disent les gens autour de moi",
+    "testimonial-1": {
+      "status": "Étudiant",
+      "description": "Noan est une personne extrêmement disciplinée quand il le faut, et j'admire vraiment cette qualité chez lui. Je l'envie pour sa capacité à prendre son ordinateur et à travailler n'importe où, même si ce n'est que pour une courte période. Tout au long de nos études, bien que nous n'ayons jamais travaillé ensemble sur un projet, voir la manière dont il abordait ses responsabilités d'étudiant m'a motivé et inspiré à travailler plus dur. Sa détermination et son éthique de travail sont véritablement exemplaires."
+    },
+    "testimonial-2": {
+      "status": "Étudiant",
+      "description": "Noan est une personne travailleuse et sérieuse. Nous avons collaboré sur de nombreux projets, et il m'a toujours impressionné par sa capacité à s'adapter. Il prend souvent en charge les tâches que les autres membres de l'équipe ne veulent pas faire, montrant ainsi son engagement et son esprit d'équipe."
+    }
+  },
+  "contact": {
+    "title": "Me contacter",
+    "subtitle": "Contactez-moi",
+    "card": {
+      "title": "Parlez-moi",
+      "contact": "Email",
+      "button": "Écrivez-moi"
+    },
+    "form": {
+      "name": "Nom",
+      "placeholder-name": "Entrez votre nom",
+      "mail": "Email",
+      "placeholder-mail": "Entrez votre email",
+      "message": "Message",
+      "placeholder-message": "Écrivez votre message",
+      "send": "Envoyer le message"
+    }
+  },
+  "footer": {
+    "copyright": " 2024 par Noan Randon | Tous droits réservés"
+  }
 }

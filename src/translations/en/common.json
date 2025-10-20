@@ -1,160 +1,194 @@
 {
-    "header": {
-        "home": "Home",
-        "about" : "About",
-        "skills": "Skills",
-        "projects": "Portfolio",
-        "qualification": "Qualification"
+  "header": {
+    "home": "Home",
+    "about": "About",
+    "skills": "Skills",
+    "projects": "Portfolio",
+    "qualification": "Qualification"
+  },
+  "home": {
+    "data": {
+      "project": "Projects",
+      "animation-1": "Computer Student",
+      "animation-2": "Web Developer",
+      "animation-3": "Mobile Developer",
+      "description": "I'm developer based in Clermont-Ferrand, and I'm very passionate and dedicated to my work."
     },
-	"home": {
-        "data": {
-            "project": "Projects",
-            "animation-1": "Computer Student",
-            "animation-2": "Web Developer",
-            "animation-3": "Mobile Developer",
-            "description": "I'm developer based in Clermont-Ferrand, and I'm very passionate and dedicated to my work."
-        },
-        "scroll-down": {
-            "scroll-down": "Scroll Down"
-        }
-    },
-    "about": {
-        "title": "About Me",
-        "subtitle": "My introduction",
-        "info": {
-            "about-box-1": {
-                "title": "Degree",
-                "subtitle": "BUT Informatique"
-            },
-            "about-box-2": {
-                "title": "Completed",
-                "subtitle": "Projects"
-            },
-            "about-box-3": {
-                "title": "Coffee",
-                "subtitle": "Cups"
-            }
-        },
-        "description-part-1": "Passionate developer for several years, ",
-        "description-part-2": "I'm currently a third-year student at the IUT des Cézeaux. ",
-        "description-part-3": "My goal is to continue my studies in engineering schools in order to deepen my skills as a developer and acquire new knowledge in the IT field.",
-        "download-cv": "Download CV"
-    },
-    "skills": {
-        "title": "Skills",
-        "subtitle": "My technical level",
-        "data": {
-            "programming": "Programming",
-            "utils": "Utils",
-            "dev-ops": "DevOps",
-            "dev-web": "Web development",
-            "dev-mobile": "Mobile development",
-            "bdd": "Database",
-            "intermediate": "Intermediate",
-            "advanced": "Advanced",
-            "basic": "Basic"
-        }
-    },
-    "projects": {
-        "title": "Portfolio",
-        "subtitle": "Most recent work",
-        "filters": {
-            "all": "All",
-            "sae": "SAE",
-            "web-app": "Web App",
-            "mobile-app": "Mobile App"
-        },
-        "details": "Details",
-        "work-details": {
-            "back": "Back",
-            "presentation": "Presentation",
-            "technologies": "Technologies Used",
-            "descriptions": {
-                "description1": "Algoboto is a cross-platform mobile application developed by a group of four students at the IUT Clermont-Auvergne, using .NET MAUI technology.\n This innovative school project is aimed at children and aims to teach them programming in a fun and interactive way. The application allows programming a Lego robot by embedding blocks and moving instructions in a way similar to Scratch.\n Children can thus create command sequences to animate the robot and perform various tasks. To develop Algoboto, we adopted an agile methodology, organizing ourselves in sprints according to the Scrum framework.\n This approach allowed us to work collaboratively and iteratively, continuously improving the product through feedback and suggestions from each team member. Demonstrations were then conducted in an elementary school to gather feedback and improvement points.",
-                "description2": "During our training in BUT Informatique, we developed a mobile application in React Native.\n This application allows users to view Star Wars characters, search for characters via a search bar, and view detailed descriptions of each character.\n It also offers the ability to save characters in a favorites list for later viewing. Additionally, our application offers a dark or light mode, as well as a choice of languages between French and English.\n For more information on the features of our application, you can consult the detailed description in the dedicated section.",
-                "description3": "Our project is a game heavily inspired by Pong, one of the first popular video games, created in 1972 by Atari.\n The game is a table tennis simulation where two players each control a vertical bar with a controller, with the goal of returning a ball to the other side of the screen.\n The player who scores the ball earns a point.\n The game continues until one of the players reaches a certain number of points.\n To make this iconic game fit the tastes of our time, we added modern and innovative features to our game LeapHit.\n To not forget the nostalgia of the original game, LeapHit will adopt a dynamic retro style, with a palette of bright colors and neon accents.\n Players can also choose the device they want to use, such as the camera, Leap Motion, or the mouse.",
-                "description4": "iOS mobile application developed in Swift. This application offers a traditional Chinese game called Dou Shou Qi, whose origins date back to the 5th century.\n The user can play against another user or against artificial intelligence. He also has the possibility to play in augmented reality, either against another user or against AI.\n Other interesting features are to be discovered, such as dark mode, language change, and many more. This project allowed me to discover the key points of Swift and acquire solid basic knowledge in this language."
-            },
-            "durations": {
-                "duration1": "Sep 2023 - Jun 2024",
-                "duration2": "Feb 2023 - Mar 2023",
-                "duration3": "Jan 2023 - Apr 2023",
-                "duration4": "May 2024 - Jun 2024"
-            }
-        }
-    },
-    "qualification": {
-        "title": "Qualification",
-        "subtitle": "My personel journey",
-        "education": {
-            "title": "Education"
-        },
-        "experience": {
-            "title": "Experience",
-            "section-1": {
-                "title": "Sandwich Course",
-                "description": "Développement d’une application web permettant de conseiller nos clients sur la gestion du patrimoine. Les technologies utilisées sont les suivantes: Angular (Front), Symfony (API), MariaDB (BDD), docker.",
-                "calendar": "Sep 2023 - Present"
-            },
-            "section-2": {
-                "title": "Intership",
-                "description": "Développement et implémentation de modèles de Plan de Gestion de Données dans un Système d’Information (Apache-PHP-Mysql).",
-                "calendar": "April - June 2023"
-            },
-            "section-3": {
-                "title": "IT assistant",
-                "description-1": "Verification performed on client files using various Excel spreadsheets, with some programming to automate tasks (Python).",
-                "description-2": "Creation of a web application to gather information about clients, developed in Nextjs.",
-                "calendar": "July - August 2023"
-            }
-        },
-        "languages": {
-            "title": "Languages",
-            "language-1": {
-                "name": "French",
-                "level": "Fluent"
-            },
-            "language-2": {
-                "name": "English",
-                "level": "Fluent"
-            }
-        }
-    },
-    "testimonial": {
-        "title": "Testimonial",
-        "subtitle": "People around to me saying",
-        "testimonial-1": {
-            "status": "Student",
-            "description": "Noan is an extremely disciplined person when needed, and I truly admire this quality in him. I envy his ability to take his computer and work anywhere, even if it's just for a short period. Throughout our studies, although we never worked together on a project, witnessing how he approached his student responsibilities motivated and inspired me to work harder. His determination and work ethic are truly exemplary."
-        },
-        "testimonial-2": {
-            "status": "Student",
-            "description": "Noan is a hardworking and serious person. We have collaborated on numerous projects, and I have always been impressed by his ability to adapt. He often takes on tasks that other team members do not want to do, demonstrating his commitment and team spirit."
-        },
-        "testimonial-3": {
-            "status": "Chartered Accountant - ADLIR Conseils",
-            "description": "Noan worked at my company and significantly improved and simplified several repetitive tasks through the creation of automated scripts. His work not only increased our efficiency but also freed up time for more strategic tasks. I am extremely satisfied with his contribution and dedication."
-        }
-    },
-    "contact": {
-        "title": "Get in touch",
-        "subtitle": "Contact Me",
-        "card": {
-            "title": "Talk to me",
-            "contact": "Email",
-            "button": "Write me"
-        },
-        "form": {
-            "name": "Name",
-            "placeholder-name": "Insert your name",
-            "mail": "Mail",
-            "placeholder-mail": "Insert your email",
-            "message": "Message",
-            "placeholder-message": "Write your message",
-            "send": "Send Message"
-        }
-    },
-    "footer": {
-        "copyright": " 2024 by Noan Randon | All rigths reserved"
+    "scroll-down": {
+      "scroll-down": "Scroll Down"
     }
+  },
+  "about": {
+    "title": "About Me",
+    "subtitle": "My introduction",
+    "info": {
+      "about-box-1": {
+        "title": "Degree",
+        "subtitle": "BUT Informatique"
+      },
+      "about-box-2": {
+        "title": "Completed",
+        "subtitle": "Projects"
+      },
+      "about-box-3": {
+        "title": "Coffee",
+        "subtitle": "Cups"
+      }
+    },
+    "description-part-1": "Passionate developer for several years, ",
+    "description-part-2": "I am currently in my second year of computer engineering studies at ISIMA, as an apprentice. ",
+    "description-part-3": "My goal is to continue my studies at engineering school in order to further develop my skills as a developer and acquire new knowledge in the field of computer science.",
+    "download-cv": "Download CV"
+  },
+  "skills": {
+    "title": "Skills",
+    "subtitle": "My technical level",
+    "data": {
+      "programming": "Programming",
+      "utils": "Utils",
+      "dev-ops": "DevOps",
+      "dev-web": "Web development",
+      "dev-mobile": "Mobile development",
+      "bdd": "Database",
+      "intermediate": "Intermediate",
+      "advanced": "Advanced",
+      "basic": "Basic"
+    }
+  },
+  "projects": {
+    "title": "Portfolio",
+    "subtitle": "Most recent work",
+    "filters": {
+      "all": "All",
+      "sae": "SAE",
+      "web-app": "Web App",
+      "mobile-app": "Mobile App",
+      "iot": "IoT"
+    },
+    "details": "Details",
+    "work-details": {
+      "back": "Back",
+      "presentation": "Presentation",
+      "technologies": "Technologies Used",
+      "personal-project": "Personal project",
+      "school-project": "School project",
+      "descriptions": {
+        "description1": "Algoboto is a cross-platform mobile application developed by a group of four students at the IUT Clermont-Auvergne, using .NET MAUI technology.\n This innovative school project is aimed at children and aims to teach them programming in a fun and interactive way. The application allows programming a Lego robot by embedding blocks and moving instructions in a way similar to Scratch.\n Children can thus create command sequences to animate the robot and perform various tasks. To develop Algoboto, we adopted an agile methodology, organizing ourselves in sprints according to the Scrum framework.\n This approach allowed us to work collaboratively and iteratively, continuously improving the product through feedback and suggestions from each team member. Demonstrations were then conducted in an elementary school to gather feedback and improvement points.",
+        "description2": "During our training in BUT Informatique, we developed a mobile application in React Native.\n This application allows users to view Star Wars characters, search for characters via a search bar, and view detailed descriptions of each character.\n It also offers the ability to save characters in a favorites list for later viewing. Additionally, our application offers a dark or light mode, as well as a choice of languages between French and English.\n For more information on the features of our application, you can consult the detailed description in the dedicated section.",
+        "description3": "Our project is a game heavily inspired by Pong, one of the first popular video games, created in 1972 by Atari.\n The game is a table tennis simulation where two players each control a vertical bar with a controller, with the goal of returning a ball to the other side of the screen.\n The player who scores the ball earns a point.\n The game continues until one of the players reaches a certain number of points.\n To make this iconic game fit the tastes of our time, we added modern and innovative features to our game LeapHit.\n To not forget the nostalgia of the original game, LeapHit will adopt a dynamic retro style, with a palette of bright colors and neon accents.\n Players can also choose the device they want to use, such as the camera, Leap Motion, or the mouse.",
+        "description4": "iOS mobile application developed in Swift. This application offers a traditional Chinese game called Dou Shou Qi, whose origins date back to the 5th century.\n The user can play against another user or against artificial intelligence. He also has the possibility to play in augmented reality, either against another user or against AI.\n Other interesting features are to be discovered, such as dark mode, language change, and many more. This project allowed me to discover the key points of Swift and acquire solid basic knowledge in this language.",
+        "description5": "The project aims to develop a mobile music recognition application, inspired by Shazam, that can identify a song from a short audio sample using an audio fingerprinting system based on Shazam’s patented algorithm.\n The application, built with React Native for the frontend, Python for the backend, and MariaDB for the database, relies on a signal processing engine that extracts audio fingerprints (via spectrograms and frequency peaks) and compares them to a database in order to provide, within seconds, the song’s title, artist, and album.\n The project includes UML modeling (use case diagram, architecture diagram, sequence diagram), the design of UI/UX mockups (audio capture, analysis in progress, result display, music library).",
+        "description6": "I created a blog in React using the Astro framework, to share my passion for computer science by showcasing cheat sheets that gather the essential elements of a technology or programming language, as well as tips, insights, and personal experiences.",
+        "description7": "WorkDeck is designed to be a work support tool aimed at producing data about an individual’s workday.\n To achieve this, we created a 3D object composed of different interchangeable modules, each module representing a different functionality.\n We developed 8 modules:\n - Water counter\n - Presence counter\n - Stopwatch\n - Coffee break: call the gang to go for a coffee\n - Mood capture\n - Productivity capture\n - Toilet\n - Focus\n\n To visualize this data, we built a mobile application.\n For this purpose, it is necessary to connect the mobile phone to the WorkDeck, and we chose to use both NFC and Bluetooth from the phone.\n Gang management (groups of friends) is handled within the mobile application, making it possible to add people to a gang, but each user can only have one active gang at a time."
+      },
+      "durations": {
+        "duration1": "Sep 2023 - Jun 2024",
+        "duration2": "Feb 2023 - Mar 2023",
+        "duration3": "Jan 2023 - Apr 2023",
+        "duration4": "May 2024 - Jun 2024",
+        "duration5": "Sep 2024 – Jun 2025",
+        "duration6": "Sep 2024",
+        "duration7": "June 2025 – Ongoing"
+      }
+    }
+  },
+  "qualification": {
+    "title": "Qualification",
+    "subtitle": "My personel journey",
+    "education": {
+      "title": "Education",
+      "section-1": {
+        "title": "MEng in Computer Science - ISIMA",
+        "location": "Clermont Auvergne INP",
+        "transcript": "Diplome d’ingénieur en Informatique",
+        "description-1": "Certified by the CyberEdu Label, which recognizes programs providing foundations in cybersecurity.",
+        "description-2": "Expected graduation September 2027.",
+        "description-3": "Relevant modules: Mathematics, Graph Theory, Algorithms, Object-Oriented Programming, Databases, Cybersecurity, Networks.",
+        "calendar": "2024 – Present"
+      },
+      "section-2": {
+        "title": "Bachelor's Degree with Specialization in Computer Science",
+        "location": "IUT UCA",
+        "transcript": "BUT Informatique",
+        "description-1": "An undergraduate vocational degree with Mobile Development Major.",
+        "description-2": "Relevant modules: Web Development, Databases, Software Engineering, Object-Oriented Programming, Mobile Development, Networking, Project Management, Agile/Scrum.",
+        "calendar": "August  2024"
+      },
+      "section-3": {
+        "title": "Scientific Baccalaureate – Specialization in Mathematics and NSI",
+        "location": "Lycée Boissy d’Anglas",
+        "transcript": "Baccalauréat Génerale spécialité Mathématique et NSI",
+        "description-1": "High school diploma with a focus on Mathematics and Digital & Computer Science (NSI).",
+        "description-2": "Also completed the ICN option (Computer Science & Digital Sciences) in 10th grade.",
+        "calendar": "July 2021"
+      }
+    },
+    "experience": {
+      "title": "Experience",
+      "section-1": {
+        "title": "Sandwich Course",
+        "description": "Développement d’une application web permettant de conseiller nos clients sur la gestion du patrimoine. Les technologies utilisées sont les suivantes: Angular (Front), Symfony (API), MariaDB (BDD), docker.",
+        "calendar": "Sep 2023 - Present"
+      },
+      "section-2": {
+        "title": "Intership",
+        "description": "Développement et implémentation de modèles de Plan de Gestion de Données dans un Système d’Information (Apache-PHP-Mysql).",
+        "calendar": "April - June 2023"
+      },
+      "section-3": {
+        "title": "IT assistant",
+        "description-1": "Verification performed on client files using various Excel spreadsheets, with some programming to automate tasks (Python).",
+        "description-2": "Creation of a web application to gather information about clients, developed in Nextjs.",
+        "calendar": "July - August 2023"
+      }
+    },
+    "languages": {
+      "title": "Languages",
+      "language-1": {
+        "name": "French",
+        "level": "Fluent"
+      },
+      "language-2": {
+        "name": "English",
+        "level": "Intermediate"
+      },
+      "language-3": {
+        "name": "German",
+        "level": "Beginner"
+      }
+    }
+  },
+  "testimonial": {
+    "title": "Testimonial",
+    "subtitle": "People around to me saying",
+    "testimonial-1": {
+      "status": "Student",
+      "description": "Noan is an extremely disciplined person when needed, and I truly admire this quality in him. I envy his ability to take his computer and work anywhere, even if it's just for a short period. Throughout our studies, although we never worked together on a project, witnessing how he approached his student responsibilities motivated and inspired me to work harder. His determination and work ethic are truly exemplary."
+    },
+    "testimonial-2": {
+      "status": "Student",
+      "description": "Noan is a hardworking and serious person. We have collaborated on numerous projects, and I have always been impressed by his ability to adapt. He often takes on tasks that other team members do not want to do, demonstrating his commitment and team spirit."
+    }
+  },
+  "contact": {
+    "title": "Get in touch",
+    "subtitle": "Contact Me",
+    "card": {
+      "title": "Talk to me",
+      "contact": "Email",
+      "button": "Write me"
+    },
+    "form": {
+      "name": "Name",
+      "placeholder-name": "Insert your name",
+      "mail": "Mail",
+      "placeholder-mail": "Insert your email",
+      "message": "Message",
+      "placeholder-message": "Write your message",
+      "send": "Send Message"
+    }
+  },
+  "footer": {
+    "copyright": " 2024 by Noan Randon | All rigths reserved"
+  }
 }
