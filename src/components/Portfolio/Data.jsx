@@ -10,9 +10,9 @@ import Detail1 from "../../assets/projects/algobotoscreen.png";
 import Detail2 from "../../assets/projects/starNativeScreenshot.png";
 import Detail3 from "../../assets/projects/douShouQiScreenshot.png";
 import Detail4 from "../../assets/projects/leaphitScreenshot.png";
-import Detail5 from "../../assets/projects/leaphitScreenshot.png";
+import Detail5 from "../../assets/projects/lyrosScreen.png";
 import Detail6 from "../../assets/projects/leaphitScreenshot.png";
-import Detail7 from "../../assets/projects/leaphitScreenshot.png";
+import Detail7 from "../../assets/projects/workdeckScreen.png";
 
 export const projectsData = [
   {
@@ -113,23 +113,6 @@ export const projectsData = [
     detail: Detail5,
   },
   {
-    id: 6,
-    image: Work6,
-    title: "Blog",
-    category: ["Web App"],
-    github: null,
-    gitlab: null,
-    url: "noandev-blog.vercel.app/blog/short-ytb/",
-    description: "description5",
-    technologies: [{ name: "Astro", icon: "fab fa-react" }],
-    duration: "duration6",
-    personalProject: true,
-    teamSize: null,
-    status: "Completed",
-    images: null,
-    detail: Detail5,
-  },
-  {
     id: 7,
     image: Work7,
     title: "WorkDeck",
@@ -152,7 +135,23 @@ export const projectsData = [
     detail: Detail7,
   },
 ];
-
+// {
+//   id: 6,
+//   image: Work6,
+//   title: "Blog",
+//   category: ["Web App"],
+//   github: null,
+//   gitlab: null,
+//   url: "noandev-blog.vercel.app/blog/short-ytb/",
+//   description: "description5",
+//   technologies: [{ name: "Astro", icon: "fab fa-react" }],
+//   duration: "duration6",
+//   personalProject: true,
+//   teamSize: null,
+//   status: "Completed",
+//   images: null,
+//   detail: Detail5,
+// },
 // projects
 export const projectsNav = [
   {
